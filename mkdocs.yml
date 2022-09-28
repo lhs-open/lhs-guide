@@ -1,0 +1,8 @@
+site_name: Open LHS Guide
+site_url: ""
+nav:
+    - LHS Guide: index.md
+    - Building ML-enable LHS: ML-enabled-LHS.md
+    - About: about.md
+theme: readthedocs
+use_directory_urls: false
