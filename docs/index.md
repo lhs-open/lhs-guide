@@ -3,14 +3,17 @@
 ## Main Goals of the Quick Guide
 
 1. Provide practical information for health organizations to get started with learning health systems (LHS) enabled by machine learning (ML).
-2. Provide synthetic patient data and ML code for developing, testing and training for ML and LHS processes. 
+2. Provide synthetic patient data and ML code for **developing, testing and training for** ML and LHS processes. 
 3. Provide examples of ML and LHS implementation using real electronic medical records (EMR).
 
 ## Learning Health System Vision
 
-National Academy of Medicine (NAM, formerly Institute of Medicine, IOM) has this definition in 2013 NAM report: Best Care at Lower Cost: The Path to Continuously Learning Health Care in America.
+![NAM report](img/Best-Care-at-Lower-Cost-200x300.jpg) 
+
+National Academy of Medicine (NAM, formerly Institute of Medicine, IOM) has this definition in the 2013 NAM report: Best Care at Lower Cost: The Path to Continuously Learning Health Care in America. (IOM 2013)
 
 >A learning health care system is one in which science, informatics, incentives, and culture are aligned for continuous improvement and innovation, with best practices seamlessly embedded in the care process, patients and families active participants in all elements, and new knowledge captured as an integral by-product of the care experience. 
+
 
 
 ## ML-enabled LHS Basics
@@ -18,10 +21,14 @@ National Academy of Medicine (NAM, formerly Institute of Medicine, IOM) has this
 Enabled by machine learning, ml-LHS can be an effective approach to significantly improve the performance of many specific tasks for clinical care or public health. There are minimal viable products or services of LHS that can be implemented more practically. 
 
 ML-LHS key characteristics:
+
+-------------------
 1. Data-driven.
 2. Machine learning. 
 3. Continuous learning.
 4. Rapid dissemination.
+-------------------
+
 
 ## LHS Simulation with Synthetic Patients
 
@@ -33,4 +40,9 @@ Examples of ml-LHS in development or production are shared here for demonstratio
 [more...](ml-lhs/index.md)
 
 
+## References
 
+-------------------
+1. Institute of Medicine. 2013. Best Care at Lower Cost: The Path to Continuously Learning Health Care in America. Washington, DC: The National Academies Press. https://doi.org/10.17226/13444.
+
+-------------------
