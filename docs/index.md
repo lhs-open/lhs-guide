@@ -9,9 +9,9 @@
 ## Learning Health System Vision
 
 National Academy of Medicine (NAM, formerly Institute of Medicine, IOM) has this definition in 2013 NAM report: Best Care at Lower Cost: The Path to Continuously Learning Health Care in America.
-```sh
-A learning health care system is one in which science, informatics, incentives, and culture are aligned for continuous improvement and innovation, with best practices seamlessly embedded in the care process, patients and families active participants in all elements, and new knowledge captured as an integral by-product of the care experience. 
-```
+
+>A learning health care system is one in which science, informatics, incentives, and culture are aligned for continuous improvement and innovation, with best practices seamlessly embedded in the care process, patients and families active participants in all elements, and new knowledge captured as an integral by-product of the care experience. 
+
 
 ## ML-enabled LHS Basics
 
