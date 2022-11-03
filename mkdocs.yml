@@ -1,8 +1,7 @@
-site_name: LHS Quick Guide
+site_name: LHS Practical Guide
 site_url: ""
-nav:
-    - LHS Quick Guide: index.md
-    - Building ML-enable LHS: ml-lhs/index.html
-    - About: about.md
-theme: readthedocs
 use_directory_urls: false
+theme: readthedocs
+nav:
+    - LHS Practical Guide: index.md
+#    - Building ML-enable LHS: ml-lhs/index.html
