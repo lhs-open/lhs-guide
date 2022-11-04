@@ -122,39 +122,40 @@ Improving quality and controlling costs requires moving from this unsustainable 
 **Definition for Learning Health Care System:**
 > “A learning health care system is one in which science, informatics, incentives, and culture are aligned for continuous improvement and innovation, with best practices seamlessly embedded in the care process, patients and families active participants in all elements, and new knowledge captured as an integral by-product of the care experience.” (Source: NAM 2013 report - Best Care at Lower Cost.)
  
+<br>
 
-**Schematic of a learning health system** 
-![LHSpic](img/nam-lhs.png)
- 
+**Schematic of a learning health system:** 
+![LHSpic](img/nam-lhs.png) 
+
 Source: NAM 2013 report - Best Care at Lower Cost.
 
 <br>
 
-**Characteristics of a Continuously Learning Health Care System:**
+## Characteristics of a Continuously Learning Health Care System
+SOURCE: NAM 2013 "Best Care at Lower Cost" report.
 
-Science and Informatics
+Science and Informatics:
 
 -	Real-time access to knowledge — A learning health care system continuously and reliably captures, curates, and delivers the best available evidence to guide, support, tailor, and improve clinical decision making and care safety and quality.
 
 -	Digital capture of the care experience — A learning health care system captures the care experience on digital platforms for real-time generation and application of knowledge for care improvement.
 
-Patient-Clinician Partnerships
+Patient-Clinician Partnerships:
 
 -	Engaged, empowered patients — A learning health care system is anchored on patient needs and perspectives and promotes the inclusion of patients, families, and other caregivers as vital members of the continuously learning care team.
 
-Incentives
+Incentives:
 
 -	Incentives aligned for value — A learning health care system has incentives actively aligned to encourage continuous improvement, identify and reduce waste, and reward high-value care.
 
 -	Full transparency — A learning health care system systematically monitors the safety, quality, processes, prices, costs, and outcomes of care, and makes information available for care improvement and informed choices and decision making by clinicians, patients, and their families.
 
-Continuous Learning Culture
+Continuous Learning Culture:
 
 -	Leadership-instilled culture of learning — A learning health care system is stewarded by leadership committed to a culture of teamwork, collaboration, and adaptability in support of continuous learning as a core aim.
 
 -	Supportive system competencies — A learning health care system constantly refines complex care operations and processes through ongoing team training and skill building, systems analysis and information development, and creation of the feedback loops for continuous learning and system improvement.
 
-Source: NAM 2013 "Best Care at Lower Cost" report.
 
 ## Who are building LHS?
 
@@ -173,23 +174,23 @@ Examples of clinical research networks as LHS:
 -	HMO research network (HMORN)
 -	Patient-Centered Network of Learning Health Systems (LHSNet)
 
-## LHS definition for Developers
+## LHS definition for developers
 
 For easier understanding by developers, this guide provides a simpler technical definition for LHS:
->	A learning health system has research embedded in the health care services where health data are collected simultaneously, new knowledge and models are learned continuously, and improvement can be deployed seamlessly. 
+>-	A learning health system has research embedded in the health care services where health data are collected simultaneously, new knowledge and models are learned continuously, and improvement can be deployed seamlessly. 
 
-The learning in the LHS means machine learning, continuous learning, and ultimately self-learning. When research and practice are seamlessly integrated, the dissemination problem starts to ease.
+The "learning" in Learning Health System means machine learning, continuous learning, and ultimately self-learning in addition to normal learning by human. When research and practice are seamlessly integrated, the dissemination problem starts to ease.
 
 In essence, LHS is about revolutionizing knowledge generation and use in medicine. The next two sections dive deeper into the "knowledge business".
+
+<br>
 
 # 2. Evidence and Knowledge Generation
 
 ## Study methods
-[Source: NAM 2013 "Best Care at Lower Cost" report]
+[SOURCE: NAM 2013 "Best Care at Lower Cost" report]
 
-Randomized clinical trials (RCT) are the “gold standard” of the current clinical research enterprise for generating medical evidence and knowledge. 
-
-Despite the accelerating pace of scientific discovery, the current clinical research enterprise does not sufficiently address pressing clinical questions. The result is decisions by both patients and clinicians that are inadequately informed by evidence.
+Randomized clinical trials (RCT) are the “gold standard” of the current clinical research enterprise for generating medical evidence and knowledge. Despite the accelerating pace of scientific discovery, the current clinical research enterprise does not sufficiently address pressing clinical questions. The result is decisions by both patients and clinicians that are inadequately informed by evidence.
 
 The evidence basis for clinical guidelines and recommendations needs to be strengthened. In some cases, 40 to 50 percent of the recommendations made in guidelines are based on expert opinion, case studies, or standards of care rather than on multiple clinical trials or meta-analyses.
 
@@ -198,6 +199,7 @@ Even at the current pace of production, the knowledge base provides limited supp
 The cost of current methods for clinical research averages $15-$20 million for larger studies — and much more for some — yet the studies do not reflect the practice conditions of many health care providers.
 
 New methods are needed to address current limitations in clinical research. The alternative research methods include:
+
 -	adaptive trials
 -	delayed design trials
 -	cluster randomized controlled trials
@@ -206,12 +208,13 @@ New methods are needed to address current limitations in clinical research. The 
 -	pragmatic clinical trials (PCT)
 -	large simple trials (LST)
 
-Alternative methods require different statistical analysis: for examples
+Alternative methods require different statistical analysis: e.g.
+
 -	New Bayesian techniques for data analysis can separate out the effects of different clinical interventions on overall population health.
 -	Modeling physiological pathways and disease states.
 -	Machine learning.
 
-### Experimental vs. observational study
+## Experimental vs. observational study
 
 **Experimental method:**
 
@@ -219,6 +222,7 @@ Alternative methods require different statistical analysis: for examples
 -	While the randomized controlled trial has a highly successful track record in generating new clinical knowledge, it has several limitations: not practical or feasible in all situations; expensive and time-consuming; address only the questions they were designed to answer; cannot answer every type of research question.
 
 **Observational method:** 
+
 -	Can only randomize at group level, easier to collect data in the process of care delivery, results closer to real-world setting, requiring less time and less cost. 
 -	The strength of observational studies is that they capture health practices in real-world situations, which aids in generalizing their results to more medical practices. This research design can provide data throughout a product’s life cycle and allow for natural experiments provided by variations in care. However, observational studies are challenged to minimize bias and ensure that their results were due to the intervention under consideration.
 
@@ -227,6 +231,7 @@ Alternative methods require different statistical analysis: for examples
 NAM 2013 report, “Observational Studies in a Learning Health System: Workshop Summary” (OS-LHS), reviews leading approaches to observational studies, how to deal with bias, how to evaluate treatment heterogeneity, and other important aspects of using observational study method in LHS.
 
 Observational studies can provide information on the effectiveness of therapies in real-world clinical practice. The observational study method complements the RCT method, with the following features:
+
 -	Detect signals about the benefits and risks of various therapies in the general population.
 -	Identify rare side effects and benefits that are beyond the reach of RCTs.
 -	Provide community-level data that can lead to new hypotheses that can then be tested in clinical trials. 
@@ -235,16 +240,19 @@ Observational studies can provide information on the effectiveness of therapies 
 -	Used in conjunction with RCTs to test the external validity of the RCTs in a more representative population and assess the heterogeneity of the treatment response. 
 
 Issues of the observational study method: 
+
 -	Potential bias. 
 -	Data quality issues
 -	Analytical challenges
 -	Harder to draw causal relationships.
 
 About bias:
+
 -	Missing information and misclassified information that are directly or indirectly related to the health outcomes of interest may cause bias. 
 -	The instrumental variable method is one approach to controlling for unmeasured confounding.
 
 Because of the potential bias, an observational study needs careful design in order to prevent misleading results. Lessons can be learned from these examples:
+
 -	The conflicting findings for hormone replacement therapy between a large number of observational studies and the RCT conducted by the Women’s Health Initiative.
 
 According to Dr. Steven N. Goodman at the Stanford University School of Medicine, “observational studies and RCTs are getting closer and closer. The choice between them is really not, in a sense, a choice between them but involves a lot of complicated trade-offs and questions about what each one reveals that the other one does not.”
@@ -269,6 +277,7 @@ Clinical research networks (CRN) or organizational consortia may be required to 
 Data standards, such as the Clinical Data Acquisition Standards Harmonization (CDASH) from FDA’s initiative, exists and electronic tools are available to collect data from heterogeneous EHRs. 
 
 For details, see presentations from the following experts in the report:
+
 -	Dr. Richard Platt from Harvard Medical School. 
 -	Dr. Ryan E. Ferguson from VA.
 -	Rebecca Daniels Kush from the Clinical Data Interchange Standards Consortium
@@ -282,10 +291,12 @@ After the NAM LHS report series were released, EMR has quickly become ubiquitous
 
 In my view, this environment of unprecedent digital health data plus machine learning is giving rise to unforeseen possibilities for medical knowledge generation and beyond in the context of LHS. On one hand, a large number of machine learning studies have directly used routine EMR data to learn and build knowledgebases about clinical events such as diagnoses and treatments. On the other hand, ML models are being built from EMR data without prior knowledge or generating traditional form of knowledge. ML models, particularly those uninterpretable models, will push the traditional concept of learning and disseminating new knowledge in LHS into an uncharted territory - disseminating machine learning models without knowledge about or from the models (a situation where we just know it works but don’t know how). 
 
+<br>
+
 # 3. Knowledge and Model Dissemination
 
 ## Dissemination through knowledge-based CDS 
-[Source: NAM 2013 "Best Care at Lower Cost" report]
+[SOURCE: NAM 2013 "Best Care at Lower Cost" report]
 
 Current systems that generate and implement new clinical knowledge are largely disconnected and poorly coordinated. While clinical data contribute to the development of many effective, evidence-based practices, therapeutics, and interventions every year, only some of these become widely used. Many others are used only in limited ways, failing to realize their transformative potential to improve care.
 
@@ -294,6 +305,7 @@ Evidence suggests that simply providing information, albeit more quickly, rarely
 One technological tool for bringing research results into the clinical arena is clinical decision support. A clinical decision support system integrates information on a patient with a computerized database of clinical research findings and clinical guidelines. The system generates patient-specific recommendations that guide clinicians and patients in making clinical decisions.
 
 As the pace of knowledge generation accelerates, new approaches are needed to deliver the right information, in a clear and understandable format, to patients and clinicians as they partner to make clinical decisions. Related findings:
+
 -	The slow pace of dissemination and implementation of new knowledge in health care is harmful to patients. For example, it took 13 years for most experts to recommend thrombolytic drugs for heart attack treatment after their first positive clinical trial.
 -	Available evidence often is unused in clinical decision making. One analysis of the use of implantable cardioverter-defibrillator (ICD) implants found that 22 percent were implanted in circumstances outside of professional society guidelines.
 -	Decision support tools, which can be broadly provided in electronic health records, hold promise for improving the application of evidence. One study found that digital decision support tools helped clinicians apply clinical guidelines, improving health outcomes for diabetics by 15 percent.
@@ -304,6 +316,7 @@ Data from electronic health records, although imperfect, yield reasonably accura
 
 As I described in the previous knowledge generation section, machine learning models can be built from a whole EMR or a number of EMRs. Depending on the algorithms used, some are interpretable but some are not. There will be challenges in disseminating the uninterpretable ML models even though they are high-performance. 
 
+<br>
 
 # 4. Building LHS
 
@@ -330,6 +343,7 @@ Since we are still in the beginning of building learning health systems, we shou
 This guide is focused on providing practical guidance and examples for building small ML-enabled LHS units (ML-LHS). Enabled by machine learning, the predictive or other functional ml-LHS units are expected to effectively improve the performance of many specific tasks for clinical care or public health.
 
 ML-LHS unit's key characteristics:
+
 1. Data-driven.
 2. Machine learning. 
 3. Continuous learning.
@@ -340,6 +354,7 @@ Development of small but effective ML-LHS is made easier by the open data and so
 
 In the following sections, the first simulation of risk prediction LHS with synthetic patients will be described, followed by examples of LHS projects using real EHR data that are still work in progress. From the initial results of these studies, I propose a new **"synthetic+real" strategy** to build small ML-LHS units: first simulate a ML-LHS with synthetic data and then apply the process to real EHR data. 
 
+<br>
 
 # 5. ML-enabled LHS Simulation
 
