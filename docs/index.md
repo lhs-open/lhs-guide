@@ -25,7 +25,7 @@ The guide's main goals:
 Based on the limited progress of LHS, I also make two hypotheses in the guide, which may encourage more research on ML-LHS:
 
 >   - Hypothesis 1: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
->   - Hypothesis 2: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly dissenminated ML models and thus help reduce health care disparities in underserved populations.
+>   - Hypothesis 2: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
 The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to help advance the emerging field of learning health systems. As a living technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
 
@@ -47,25 +47,25 @@ In 2006 the IOM Roundtable on Evidence-Based Medicine convened a workshop entitl
 
 A re-evaluation of how health care is structured to develop and apply evidence subsequently identified the following problems in current health care systems:
 
-- Problem: Missed opportunities, preventable illnesses, and injuries are too often in health care.
+>- Problem: Missed opportunities, preventable illnesses, and injuries are too often in health care.
 
 Medical errors: IOM 2001 report “Crossing the Quality Chasm” found an estimated 44,000 to 98,000 Americans may die annually due to medical errors. This alarming problem underscores the need for redesigning health care to address the key dimensions on which improvement was most needed: safety, effectiveness, patient centeredness, timeliness, efficiency, and equity. (IOM 2001)
 
-- Problem: The prevailing approach to generating clinical evidence is inadequate today and may be irrelevant tomorrow, given the pace and complexity of change. 
+>- Problem: The prevailing approach to generating clinical evidence is inadequate today and may be irrelevant tomorrow, given the pace and complexity of change. 
 
 The current dependence on the randomized controlled clinical trial (RCT), as useful as it is under the right circumstances, takes too much time, is too expensive, and is fraught with questions of generalizability.
 
 Evidence lacking generalizability: Clinical research studies often do not reliably generate evidence that is generalizable for clinical decision making in real-world patient populations. The use of strict inclusion and exclusion criteria restricts a broader clinical population from participating in clinical studies. As such, even when lengthy clinical trials are completed, clinicians may not feel that study results can be applied to their own, often more complex, patient populations. For example, Masoudi and colleagues demonstrated that only a minority (13% to 25%) of persons with heart failure in clinical practice would qualify for enrollment in clinical trials (Masoudi 2003).
 
-- Problem: Deficiencies are in the quantity, quality, and application of evidence.
+>- Problem: Deficiencies are in the quantity, quality, and application of evidence.
 
 Improvement requires a stronger system-wide focus on the evidence. A new clinical research paradigm that takes better advantage of data generated in the course of healthcare delivery would speed and improve the development of evidence for real-world decision making.
 
-- Problem: The current approaches to interpreting the evidence and producing guidelines and recommendations often yield inconsistencies and confusion. Dissemination of guidelines is too slow.
+>- Problem: The current approaches to interpreting the evidence and producing guidelines and recommendations often yield inconsistencies and confusion. Dissemination of guidelines is too slow.
 
 One report suggested that it may take as long as 17 years to turn some positive research results to the benefit of patient care (Balas and Boren 2000). Need to reduce the lag time between innovation and its implementation.
 
-- Problem: Inefficiency and waste are in much of health care.
+>- Problem: Inefficiency and waste are in much of health care.
 
 At system level, it is clear that the clinical research enterprise is detached from the clinical care delivery process. The report proposes that embedding clinical research in clinical delivery may fix this foundational defect in the health care systems. Because carrying out research and care simultaneously makes continuous learning and dissemination more efficient and effective, it may drastically improve care quality and reduce cost at the same time. This is why we need learning health systems.
 
@@ -76,9 +76,9 @@ SOURCE: NAM 2007 LHS report – The Learning Healthcare System.
 Through reengineering clinical research and healthcare delivery, the report hopes that the process of generating and applying the best evidence will be natural and seamless components of the process of care itself, as part of a learning healthcare system, which can be both more effective and more efficient than we have today. 
 
 Learning Health System Characteristics:
->-   Culture: participatory, team-based, transparent, improving
->-   Design and processes: patient-anchored and tested
->-   Patients and public: fully and actively engaged
+>-  Culture: participatory, team-based, transparent, improving
+>-  Design and processes: patient-anchored and tested
+>-  Patients and public: fully and actively engaged
 >-	Decisions: informed, facilitated, shared, and coordinated
 >-	Care: starting with the best practice, every time
 >-	Outcomes and costs: transparent and constantly assessed
@@ -162,9 +162,7 @@ Continuous Learning Culture:
 LHS Examples:
 
 -	Intermountain Healthcare: Feedback Loops to Expedite Study Timeliness and Relevance.
-
 -	Geisinger Health System: Use of Electronic Health Records to Bridge the Inference Gap.
-
 -	Department of Veterans Affairs: Implementing evidence-based practice, particularly via use of the electronic health record.
 
 Examples of clinical research networks as LHS:
@@ -358,7 +356,7 @@ In the following sections, the first simulation of risk prediction LHS with synt
 
 # 5. ML-enabled LHS Simulation
 
-With the new synthetic patient technologies, it is now possible to synthesize patient records for a simulated EMR, and then simulate ML-LHS using the synthetic data to explore the benefits of LHS. LHS simulation represents an efficient way to develop ML algorithms and LHS processes, which can be applied to real patient data for building ML-LHS units. Because synthetic patient data based on public data has no privacy concerns, LHS simulation serves as an vehicle for shareing data and collaborating on algorithm development across organizations in large scale. This simulation step can potentially save a lot of time in the overall LHS project schedules.    
+With the new synthetic patient technologies, it is now possible to synthesize patient records for a simulated EMR, and then simulate ML-LHS using the synthetic data to explore the benefits of LHS. LHS simulation represents an efficient way to develop ML algorithms and LHS processes, which can be applied to real patient data for building ML-LHS units. Because synthetic patient data based on public data has no privacy concerns, LHS simulation serves as an vehicle for sharing data and collaborating on algorithm development across organizations in large scale. This simulation step can potentially save a lot of time in the overall LHS project schedules.    
 
 We conducted the first simulation study of ML-enabled LHS using synthetic patients generated by the Synthea technology, which has been published in [Nature Scientific Reports](https://www.nature.com/articles/s41598-022-23011-4) (Chen 2022). As a starting point, the study results are summarized below. 
 
@@ -367,15 +365,17 @@ We conducted the first simulation study of ML-enabled LHS using synthetic patien
 A simplified high-level design view of the ML-enabled LHS core unit for risk prediction task is shown in diagram. The design is focused on the two core ML steps for simulation: (1) build an initial ML model from existing EHR data, and (2) continuous ML with addition of new data to improve the ML model. This LHS design essentially utilizes the data-centric ML approach for EHR patient data. Therefore, the LHS process is primarily focused on increasing the quality and quantity of ML-usable data to improve risk prediction ML models. 
 
 ![design](img/Figure-1-simlhs-design.jpg)
+
 Figure: High-level design of ML-enabled LHS core unit for risk prediction. The ML model is first built with initial patient data from EHRs. LHS learning cycles continuously use updated patient data to improve the ML model, and rapidly disseminate new model for doctors to use in making risk predictions.
 
 ## Simulation of ML-enabled LHS unit for lung cancer risk prediction
 
 In order to simulate a lung cancer risk prediction LHS at a scale of a real-world hospital EHR containing 1 million patients, the LHS should have about 5,000 lung cancer patients. A total of 150,000 synthetic patients were synthesized by the [Synthea patient generator](https://github.com/synthetichealth/synthea), of which ~5,500 had lung cancer. Over 175 million points of data were available from over 13 million encounters for these Synthea patients, including 8 million diagnoses, 111 million observations, 24 million procedures and 15 million medications.
 
-The continuous learning and improving process of ML-LHS was simulated by adding a 30,000 Synthea patient dataset to the previous updated dataset in 4 separate instances. A new XGBoost model was built for each updated dataset. As the size of dataset increased from 30,000 patients to 150,000 patients, the prediction performance of lung cancer recall increased from 0.849 to 0.936, the precision from 0.944 to 0.962, the AUC from 0.913 to 0.962, and the accuracy from 0.938 to 0.975. XGBoost base model was compared to the Random Forest (RF), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN) base models. XGBoost models of Synthea patients had the best performace for lung cancer risk prediction.
+The continuous learning and improving process of ML-LHS was simulated by adding a 30,000 Synthea patient dataset to the previous updated dataset in 4 separate instances. A new XGBoost model was built for each updated dataset. As the size of dataset increased from 30,000 patients to 150,000 patients, the prediction performance of lung cancer recall increased from 0.849 to 0.936, the precision from 0.944 to 0.962, the AUC from 0.913 to 0.962, and the accuracy from 0.938 to 0.975. XGBoost base model was compared to the Random Forest (RF), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN) base models. XGBoost models of Synthea patients had the best performance for lung cancer risk prediction.
 
 ![design](img/Figure-4-lc-ml-updates.png)
+
 Figure: Continuous improvement of lung cancer risk prediction ML models with dataset size increase over time. Comparing algorithms: XGBoost, RF, SVM, and KNN. Recall was used as the key performance measure for risk prediction in preventive screening. Initial dataset: 30K patients; 4 data updates, each with 30K patients. 
 
 
@@ -388,6 +388,7 @@ Stroke occurred in Synthea patients more frequently than lung cancer. There were
 The stroke model results confirmed that the established LHS process was similarly effective in building high-performance models for stroke risk prediction. We expect that this LHS process will be applicable to other diseases as well. 
 
 ![design](img/Figure-6-stroke-ml-updates.png)
+
 Figure: Continuous improvement of XGBoost base models for stroke risk prediction with dataset size increase over time. Model performance was measured by recall, precision and AUC. The recall of the baseline model with 10 variables is shown as reference.  
 
 ## Conclusions of ML-LHS simulation study
@@ -401,33 +402,38 @@ NOTE: The ML models in LHS simulation are for research use only and not for real
 ## ML-LHS Hypotheses
 
 Based on the LHS simulation study, I have formulated two hypotheses: 
-1. With data-centric approach, ML-LHS unit can ultimately achieve high recall and precision (>95%) for risk prediction of most diseases. 
-2. Small community and rural clinics may not have enoutgh data to build ML models by themselvs, but can join clinical research networks (CRN) led by big hospitals so that the ML-LHS run in CRN can include clinics in learning cycles and thus enable clinics with the same ML/AI tools.
 
+1. With data-centric approach, ML-LHS unit can ultimately achieve high recall and precision (>95%) for risk prediction of most diseases. 
+
+2. Small community and rural clinics may not have enough data to build ML models by themselves, but can join clinical research networks (CRN) led by big hospitals so that the ML-LHS run in CRN can include clinics in learning cycles and thus enable clinics with the same ML/AI tools.
+
+<br>
 
 # 6. ML-enabled LHS Project Examples
 
-ML-enabled LHS holds great promises in transforming health care and public health to more effective and efficient systems. I want to emphesize one particular application area here, which is dear to my heart: health equity. 
+ML-enabled LHS holds great promises in transforming health care and public health to more effective and efficient systems. I want to emphasize one particular application area here, which is dear to my heart: health equity. 
 
-## Promising solution to globle health care disparities 
+## Promising solution to global health care disparities 
 
-As hypothesized above, ML-LHS has the potential to reduce health care disparities in rural and underprivileged populations. Although rural clinics and small urban community health centers (CHC) do not have sufficient numbers of patients required for building high-accuracy ML models for various tasks by themselves, the ML-enabled LHS design can be expanded to include all participants in clinical research networks (CRN-LHS). With CRNs, the teaching or tertiary hospitals are responsible to build ML models using data including those from the patient populations served by the rural clinics and urban CHCs. The resulting ML models and AI tools are rapidly disseminated among all providers within the LHS so that the clinics and CHCs are also enabled by the same ML/AI tools as the big hospitals. I expect that the CRN-LHS design not only offers a promising solution to reduce health care disparities in underserved ppopulations but also prevent the small providers from leaving further behind by the healthcare AI revolution. 
+As hypothesized above, ML-LHS has the potential to reduce health care disparities in rural and underprivileged populations. Although rural clinics and small urban community health centers (CHC) do not have sufficient numbers of patients required for building high-accuracy ML models for various tasks by themselves, the ML-enabled LHS design can be expanded to include all participants in clinical research networks (CRN-LHS). With CRNs, the teaching or tertiary hospitals are responsible to build ML models using data including those from the patient populations served by the rural clinics and urban CHCs. The resulting ML models and AI tools are rapidly disseminated among all providers within the LHS so that the clinics and CHCs are also enabled by the same ML/AI tools as the big hospitals. I expect that the CRN-LHS design not only offers a promising solution to reduce health care disparities in underserved populations but also prevent the small providers from leaving further behind by the healthcare AI revolution. 
 
 ## Challenges
 
 The concept of ML-LHS is promising but also facing big challenges. Since LHS simultaneously involves system-level research and clinical practices, requirements for the initial ML models are significantly higher and may not be met by most reported ML models using EHR data. Moreover, because patient data cannot be shared openly for privacy reason, there is a lack of open access to patient datasets needed for developing ML-enabled LHS. As a result, it is difficult for wide-spread LHS research to occur in the emerging LHS field. 
 
-Since I was invited to participat in the [2012 National Learning Health System Summit](https://www.learninghealth.org/kanter-summit), I have not yet seen any reports on ML-enabled LHS implementation within hospital clinical workflows that has the key desired LHS characteristics, such as automatic data collection, continuous machine learning, and rapid dissemination of new knowledge and best practices. Although some studies have reported successful applications of LHS concepts in hospital quality improvement, these use cases did not employ continuous machine learning of EHR data. (Bravata 2020, Horwitz 2019)
+Since I was invited to participate in the [2012 National Learning Health System Summit](https://www.learninghealth.org/kanter-summit), I have not yet seen any reports on ML-enabled LHS implementation within hospital clinical workflows that has the key desired LHS characteristics, such as automatic data collection, continuous machine learning, and rapid dissemination of new knowledge and best practices. Although some studies have reported successful applications of LHS concepts in hospital quality improvement, these use cases did not employ continuous machine learning of EHR data. (Bravata 2020, Horwitz 2019)
 
 
 ## New strategy for building ML-LHS
 
-Because of the challenges, the LHS community needs to find new ways to facilitate research and implementation of ML-LHS. The LHS simulation study described dabove is an attempt to see how synthetic data could help hospitals and other types of health organizations to get started on exploring ML-LHS easier. 
+Because of the challenges, the LHS community needs to find new ways to facilitate research and implementation of ML-LHS. The LHS simulation study described above is an attempt to see how synthetic data could help hospitals and other types of health organizations to get started on exploring ML-LHS easier. 
 
 For example, after seeing the results from the lung cancer risk prediction ML-LHS simulation, a clinical team at Guilin Medical University Affiliated Hospital has used the simulation process to train researchers and students and then developed a ML pipeline using real EHR data to build ML models for predicting risk of several diseases. This team is in the process of creating clinical research networks for implementation of ML-enabled LHS for disease early detections. More information will be shared here after this project makes progress toward running the ML-enabled LHS.
 
 From the initial effect of synthetic data simulation on hospital's initiation of ML-LHS research projects, a new strategy is emerging: "synthetic+real" strategy. It breaks down a difficult task of building ML-LHS into two stages: 
-1. In the first stage, simulate the ML core of ML-LHS using synthetic data, including data pipeline, ML algorithms, and team training. If this process works smoothly, it will give the clinical team more confidence of pursueing ML-LHS.
+
+1. In the first stage, simulate the ML core of ML-LHS using synthetic data, including data pipeline, ML algorithms, and team training. If this process works smoothly, it will give the clinical team more confidence of pursuing ML-LHS.
+
 2. In the second stage, apply the process to real EHR data for data collection, model development, and clinical validation. Implement any other processes needed to run the learning cycles  that are embedded in the routine clinical workflow.
 
 
@@ -450,12 +456,14 @@ In the following sections, you will find more detailed information on health dat
 NAM 2010 report “Clinical Data as the Basic Staple of Health Learning: Creating and Protecting a Public Good: Workshop Summary” reviews the integration and use of electronic health records for knowledge development. It discusses efforts to investigate cutting-edge data-mining techniques for generating evidence on care practices and research. 
 
 Examples of past projects presented in the report:
+
 -	Nationwide Health Information Network (NHIN): Aggregated clinical data from multiple organizations.
 -	[Cancer Biomedical Informatics Grid (caBIG)](https://biospecimens.cancer.gov/caBigTools.asp): It connected member systems of biomedical research and clinical trials, and provided shared data to the cancer research community. 
 
 NAM 2013 report “Digital Data Improvement Priorities for Continuous Learning in Health and Health Care: Workshop Summary” explores the data quality issues and strategies central to the increasing capture and use of digital health data for knowledge development.
 
 The increased collection and sharing of health data is quickly moving health care into the era of “big data.” Digital health data are produced in a variety of different environments:
+
 -	EHRs containing data from routine care.
 -	Data originating directly from patients.
 -	Employers often possessing data on employees’ health care utilization, basic health status, and associated expenses.
@@ -463,8 +471,11 @@ The increased collection and sharing of health data is quickly moving health car
 -	Ongoing and completed clinical trial data.
 
 Although the collection of large amounts of health and health-related data holds promise for both the scale and types of learning possible, data alone are not sufficient for learning. Sharing, aggregation, analysis, and the continuous management and improvement of these data are necessary to enable the transition to a continuously learning health system.
+
 -	Innovative methods: Need development of methods using EHRs as a data source and performing observational studies on big data. Need development, validation, and use of predictive models to inform health-data uses, including risk interpretation by individuals.
+
 -	Distributed approaches: Given the importance of privacy and security in the collection and use of patient health data, need to further develop and pilot the policies, analytic methods, and technologies associated with the use of distributed network approaches. 
+
     -	Example distributed data network: Mini-Sentinel (FDA-sponsored pilot initiative): A distributed dataset of >100 million people, supporting active safety surveillance of medical products.
 
 ## EHR data contents
@@ -476,19 +487,30 @@ Using [MIMIC-IV hospital data](https://mimic.mit.edu/docs/iv/modules/hosp/) as e
 There are some organizations sharing patient health data, which require permissions for necessary patient data protection. But, the lack of patient data access for developers to develop code seriously hinders learning health system innovations.  
 
 EHR data sharing:
--   [MIT MIMIC-IV hospital datasets](https://mimic.mit.edu/docs/iv/): MIMIC-IV is a relational database containing real hospital stays for patients admitted to a tertiary academic medical center in Boston, MA, USA. MIMIC-IV contains comprehensive information for each patient while they were in the hospital: laboratory measurements, medications administered, vital signs documented, and so on. The database is intended to support a wide variety of research in healthcare.
 
--	[MIT MIMIC III ICU datasets](https://mimic.mit.edu/docs/iii/): MIMIC-III (Medical Information Mart for Intensive Care III) is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (both in and out of hospital).
+-   [MIT MIMIC-IV hospital datasets](https://mimic.mit.edu/docs/iv/): 
 
--   [UK Clinical Practice Research Datalink (CPRD)](https://cprd.com/): CPRD is a real-world research service supporting retrospective and prospective public health and clinical studies. CPRD collects anonymised patient data from a network of GP practices across the UK. The data encompass 60 million patients, including 16 million currently registered patients.
+MIMIC-IV is a relational database containing real hospital stays for patients admitted to a tertiary academic medical center in Boston, MA, USA. MIMIC-IV contains comprehensive information for each patient while they were in the hospital: laboratory measurements, medications administered, vital signs documented, and so on. The database is intended to support a wide variety of research in healthcare.
 
--   [PhysioNet](https://physionet.org/about/database/): The PhysioNet Resource’s original and ongoing missions were to conduct and catalyze for biomedical research and education, in part by offering free access to large collections of physiological and clinical data and related open-source software.
+-	[MIT MIMIC III ICU datasets](https://mimic.mit.edu/docs/iii/): 
+
+MIMIC-III (Medical Information Mart for Intensive Care III) is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (both in and out of hospital).
+
+-   [UK Clinical Practice Research Datalink (CPRD)](https://cprd.com/): 
+
+CPRD is a real-world research service supporting retrospective and prospective public health and clinical studies. CPRD collects anonymized patient data from a network of GP practices across the UK. The data encompass 60 million patients, including 16 million currently registered patients.
+
+-   [PhysioNet](https://physionet.org/about/database/): 
+
+The PhysioNet Resource’s original and ongoing missions were to conduct and catalyze for biomedical research and education, in part by offering free access to large collections of physiological and clinical data and related open-source software.
 
 Clinical research data sharing:
+
 -	[Clinical trials data](https://clinicaltrials.gov/): ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world.
 -	[Vivli](https://vivli.org/): A global clinical research data sharing platform 
 
 Health data sources:
+
 -	[US Government health data](https://healthdata.gov/)
 -	[ONC Health IT data](https://www.healthit.gov/data)
 -	[CMS data](https://resdac.org/)
@@ -525,6 +547,7 @@ Synthea disease modules are based on a [Generic Module Framework](https://github
 Synthea currently has over 90 different modules, each modeling a disease or condition. The module builder page lists the currently supported disease modules. The [Module Gallery](https://github.com/synthetichealth/synthea/wiki/Module-Gallery) lists some common modules.
  
 **Table: Synthea top diseases and conditions.**
+
 Top 10 Reasons Patients Visit PCP |	Top 10 Years of Life Lost |
 ----------------------------------|----------------------------
 Routine infant/child health check |	Ischemic Heart Disease
@@ -537,7 +560,7 @@ Disorders of Lipoid Metabolism	| Self-Harm
 Ear Infections (Otitis Media) |	Diabetes Mellitus
 Asthma	| Colorectal Cancer
 Urinary Tract Infections |	Drug Use Disorders (limited to Opioids)
----
+
 <br> 
 
 ### Extensibility
@@ -555,6 +578,7 @@ See published studies for external validation of Synthea patient data. (Chen 201
 Synthea patient medical records can be in standard FHIR format or CSV format. For easier view of data elements in the records of different domains, see the [list of record csv files](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary) and the data fields in each file.  
 
 **Table: Synthea patient medical record files.**
+
 File	|Description
 --------|-----------
 allergies.csv	|Patient allergy data.
@@ -575,10 +599,10 @@ payers.csv	|Payer organization data.
 procedures.csv	|Patient procedure data including surgeries.
 providers.csv	|Clinicians that provide patient care.
 supplies.csv	|Supplies used in the provision of care.
----
+
 <br>
 
-## Open synthtic patient data
+## Open synthetic patient data
 
 The Open LHS Project has started an [open synthetic patient data repository](https://github.com/lhs-open/synthetic-data) on GitHub, with links to additional datasets published in the Mendeley Data repository.
 
@@ -586,13 +610,16 @@ The same open patient data are also published in the Harvard Dataverse: [Synthet
 
 ## Other synthetic patient data
 
-### MDClone:
+- MDClone:
+
 [MDClone](https://www.mdclone.com/) platform can create complete synthetic data sets based on any original data cohort without risk of exposing patient privacy and with the ability to share information securely. Its synthetic data is non-reversible, artificially created data that replicates the statistical characteristics and correlations of real-world, raw data. Utilizing both discrete and non-discrete variables of interest, synthetic data does not contain identifiable information because it uses a statistical approach to create a brand new data set. MDClone is used by NIH N3C project to generate synthetic data sets from Covid-19 patients for wider research use.  
 
-### UK CPRD synthetic data:
+- UK CPRD synthetic data:
+
 The Clinical Practice Research Datalink (CPRD) in the UK has used its primary care data to create high-fidelity synthetic datasets replicate the complex clinical relationships in real primary care patient data while protecting patient privacy. The [CPRD synthetic data](https://cprd.com/synthetic-data) can be used instead of real patient data for complex statistical analyses as well as machine learning and artificial intelligence research applications. Through integrating outlier analysis with graphical modelling and resampling, CPRD approach can achieve synthetic data sets that are not significantly different from original ground truth data in terms of feature distributions, feature dependencies, and sensitivity analysis statistics when inferring machine learning classifiers. CPRD synthetic datasets can be used for training purposes or to improve algorithms or machine learning workflows. (Tucker 2020).
 
-### NCI Cancer synthetic data:
+- NCI Cancer synthetic data:
+
 Based on the publicly available cancer registry data from the NCI Surveillance Epidemiology and End Results (SEER) program, Goncalves et al. generated and evaluated synthetic patient data for cancers. (Goncalves 2020)  
 
 They compared the existing methodologies to generate synthetic electronic health records. For each method, the process is as follows: given a set of private and real EHR samples, fit a model, and then generate new synthetic EHR samples from the learned model. The results found that the Mixture of Product of Multinomials (MPoM) and the categorical latent Gaussian process (CLGP) method can provide synthetic EHR samples with the following two characteristics: 1) statistical properties of the synthetic data are equivalent to the ones in the private real data, and 2) private information leakage from the model is not significant. 
@@ -619,6 +646,7 @@ AI was proposed in 1950s and had gone through two “AI Winters”. The current 
 AI is poised to make transformative and disruptive advances in health care. The following table lists some of the healthcare applications of machine learning in the report. 
 
 **Table: Example applications of machine learning.**
+
 User Group	|Applications|
 ------------|------------|
 Patients and families	|Health monitoring
@@ -628,7 +656,7 @@ Clinician care teams	|Early detection, prediction, diagnostic tools
 Clinician care teams	|Precision medicine
 Public health	|Identification of individuals at risk
 Public health	|Population health
----
+
 <br>
 
 However, few examples of AI deployment and use within the health care delivery exist, and there is sparse evidence for improved outcomes when AI tools are deployed. For example, within ML risk prediction models, the sizable literature on model development and validation is in stark contrast to the scant data describing successful clinical deployment of those models in health care settings. 
@@ -660,7 +688,9 @@ EMR-wide ML refers to machine learning using all features and data available in 
 In traditional machine learning on EHR data, patients are represented by models as a vector of attributes or features. This approach relies on experts’ ability to define the appropriate features and design the model’s structure. However, deep learning models can learn useful representations from raw or minimally-processed data, with minimal need for expert guidance. This happens through a sequence of layers, each employing a large number of simple linear and nonlinear transformations to map their corresponding inputs to a representation. This progress across layers results in a final representation in which the data points form distinguishable patterns. (Li 2020, Solares 2020).
 
 Depending on the tasks, two broad groups of ML algorithms can be used to build prediction models:
+
 1.	Common ML algorithms: gradient boosting (e.g. XGBoost), Random forest (RF), support vector machines (SVM), artificial neural networks (ANN). 
+
 2.	Deep neural network algorithms (i.e. deep learning): Convolutional neural networks (CNN), recurrent neural networks (RNN), Long Short Term Memory (LSTM), Generative Adversarial Networks (GAN), Gated Recurrent Unit (GRU), feedforward network (FFN) 
 
 The following studies are some representative examples of EMR-wide ML:
@@ -815,6 +845,10 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 
 - Wang X, et al. Prediction of the 1-Year Risk of Incident Lung Cancer: Prospective Study Using Electronic Health Records from the State of Maine. J Med Internet Res 2019;21(5):e13260. doi: 10.2196/13260
 
+---
 
-Acknoledgement
-Special thanks to NAM LHS report seriers. Thanks to all references cited.  
+<br>
+
+## Acknowledgements
+
+Special thanks to NAM LHS report series. Thanks to all references cited.  
