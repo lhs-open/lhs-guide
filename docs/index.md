@@ -27,7 +27,7 @@ Based on the limited progress of LHS, I also make two hypotheses in the guide, w
 >   - Hypothesis 1: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >   - Hypothesis 2: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
-The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to help advance the emerging field of learning health systems. As a living technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
+The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to help advance the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
 
 <br>
 
@@ -535,7 +535,7 @@ Because real patient data are protected, it is critical to have synthetic patien
 A set of 1M Synthea synthetic patient medical records are available for download from Synthea developer Mitre Corp, a non-profit organization, at https://synthea.mitre.org/downloads.
 
 ### Synthea software:
-Synthea source code is available on github at https://github.com/synthetichealth/synthea. Following its instructions, you can run Synthea software to create synthetic patient data. Design and more information are on [Synthea wiki](https://github.com/synthetichealth/synthea/wiki). 
+[Synthea source code](https://github.com/synthetichealth/synthea) is available on github. Following its instructions, you can run Synthea software to create synthetic patient data. Design and more information are on [Synthea wiki](https://github.com/synthetichealth/synthea/wiki). 
 
 ### Software design:
 Synthea system generates synthetic patient records using an agent-based approach. Each synthetic patient is generated independently, as they progress from birth to death through modular representations of various diseases and conditions. Each patient runs through every disease module in the system. 
@@ -689,9 +689,9 @@ In traditional machine learning on EHR data, patients are represented by models 
 
 Depending on the tasks, two broad groups of ML algorithms can be used to build prediction models:
 
-1.	Common ML algorithms: gradient boosting (e.g. XGBoost), Random forest (RF), support vector machines (SVM), artificial neural networks (ANN). 
+1.	Common ML algorithms: gradient boosting (e.g. [XGBoost](https://xgboost.readthedocs.io/en/stable/)), Random forest (RF), support vector machines (SVM), . 
 
-2.	Deep neural network algorithms (i.e. deep learning): Convolutional neural networks (CNN), recurrent neural networks (RNN), Long Short Term Memory (LSTM), Generative Adversarial Networks (GAN), Gated Recurrent Unit (GRU), feedforward network (FFN) 
+2.	Deep neural network algorithms (or [deep learning](https://healthitanalytics.com/features/what-is-deep-learning-and-how-will-it-change-healthcare)): artificial neural networks (ANN), convolutional neural networks (CNN), recurrent neural networks (RNN), Long Short Term Memory (LSTM), Generative Adversarial Networks (GAN), Gated Recurrent Unit (GRU), feedforward network (FFN) 
 
 The following studies are some representative examples of EMR-wide ML:
 
@@ -851,4 +851,7 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 
 ## Acknowledgements
 
-Special thanks to NAM LHS report series. Thanks to all references cited.  
+Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to the NAM LHS report series. Thanks to all references cited.
+
+Current Version: 20221103
+  

@@ -1,4 +1,23 @@
-# Open LHS Quick Guide Project
-Practical quick guide for building learning health systems (LHS).
+# Open LHS Practical Guide
+A quick practical guide for building learning health systems (LHS).
 
-[View LHS Quick Guide](https://lhs-open.github.io/lhs-guide/)
+Put together by AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum), Learning Health Community. 
+
+Focused on providing practical information for developers and health organizations to get started with developing LHS quickly. 
+
+Dynamic guide - updated frequently when new information available. 
+
+[>>> View current LHS Practical Guide](https://lhs-open.github.io/lhs-guide/)
+
+## The guide's main goals:
+
+>1.	Provide technical information for developers and health organizations to quickly understand the benefits of LHS and get started with LHS.
+>2. Explain it is more practical to build small ML-LHS units rather than being bogged down in the grand LHS picture.
+>3. Propose a new "synthetic+real" strategy: simulate ML-LHS unit with [synthetic patient data](https://github.com/lhs-open/synthetic-data) first and then apply the process to build ML-LHS unit with real EHR data.
+
+## Two hypotheses in the guide:
+
+>   - Hypothesis 1: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
+>   - Hypothesis 2: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
+
+If you are interested in learning more about LHS, contact AJ.  
