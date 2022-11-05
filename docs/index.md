@@ -22,12 +22,12 @@ The guide's main goals:
 >2. Explain it is more practical to build small ML-LHS units rather than being bogged down in the grand LHS picture.
 >3. Propose a new "synthetic+real" strategy: simulate ML-LHS unit with synthetic patients first and then apply the process to build ML-LHS unit with real EHR data.
 
-Based on the limited progress of LHS, I've made two hypotheses, which may encourage more research on ML-LHS:
+Based on LHS experiments, I have made the following hypotheses to encourage more research on ML-LHS:
 
 >1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
-The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to help advance the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
+The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to encourage sharing and collaborations for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
 
 <br>
 
