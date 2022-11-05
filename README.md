@@ -17,7 +17,7 @@ Dynamic guide - updated frequently when new information available.
 
 ## Two hypotheses in the guide:
 
->   - Hypothesis 1: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
->   - Hypothesis 2: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
+>1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
+>2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
-If you are interested in learning more about LHS, contact AJ.  
+If you are interested in learning more about LHS, you may contact AJ.  
