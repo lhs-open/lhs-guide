@@ -445,9 +445,27 @@ In the following sections, you will find more detailed information on health dat
 
 ## ML-LHS Examples
 
-[more to come …]
+>- UC San Diego Health LHS
+
+SOURCE: ["Developing a highly-reliable learning health system"](https://doi.org/10.1002/lrh2.10351), by Robert El-Kareh, David A. Brenner, Christopher A. Longhurst. Learning Health Systems, 10/2022. 
+
+Key points quoted below:
+
+>   At UC San Diego Health, the COVID-19 pandemic has highlighted the unique benefits of applying high-reliability approaches to this “implementation arm” of the Learning Health System, resulting in an explicit focus on leveraging elements from both frameworks to develop a “Highly-reliable Learning Health System.”
+
+>   As a result, research faculty with expertise in the use of clinical data for modeling and implementing predictive algorithms are key partners with our operational teams.
+
+>   Continual mining of data from our electronic health record is generating real-world evidence that informs local healthcare practices and influences national policies.
+
+>   An emphasis of the highly reliable, learning health system is to engage the capability for innovations from our clinical research community and link these efforts to the reliability focus of our operational implementation teams. 
+
+>   Through the changes we describe, we aim to create a paradigm shift with an intentional organizational structure and processes that align quality improvement and clinical research innovations with our operational priorities, and to integrate their initiation and monitoring into standard clinical work.
+
 
 <br>
+
+[more to come …]
+
 <br>
 
 # 7. Health Data
