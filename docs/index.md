@@ -27,7 +27,7 @@ Based on LHS experiments, I have made the following hypotheses to encourage more
 >1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
-The LHS quick guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to encourage sharing and collaborations for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
+The LHS Practical Guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to encourage sharing and collaborations for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
 
 <br>
 

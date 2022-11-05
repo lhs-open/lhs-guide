@@ -14,5 +14,14 @@ A quick practical guide for building learning health systems (LHS). It is focuse
 >1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
+## Open health data resources
+
+- [Open Synthetic Patient Data](https://github.com/lhs-open/synthetic-data)
+- [MIT MIMIC medical data repository](https://mimic.mit.edu/)
+- [Harvard Dataverse repository](https://dataverse.harvard.edu/)
+- [Mendeley Data repository](https://data.mendeley.com/)
+- [CMS Data](https://data.cms.gov/)
+
+## Contact
 The LHS guide is put together by AJ Chen (Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum), Learning Health Community) for encouraging collaborations in the global LHS community. 
 If you are interested in discussing LHS research and implementation, you may contact AJ.  
