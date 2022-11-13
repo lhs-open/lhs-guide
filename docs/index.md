@@ -3,6 +3,24 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 
 [Work in progress]
 
+## Contents
+
+- [Summary](#summary)
+1. [The vision of Learning Health Systems](#1-the-vision-of-learning-health-systems)
+2. [Evidence and Knowledge Generation](#2-evidence-and-knowledge-generation)
+3. [Knowledge and Model Dissemination](#3-knowledge-and-model-dissemination)
+4. [Building LHS](#4-building-lhs)
+5. [ML-enabled LHS Simulation](#5-ml-enabled-lhs-simulation)
+6. [ML-enabled LHS Project Examples](#6-ml-enabled-lhs-project-examples)
+7. [Health Data](#7-health-data)
+8. [Synthetic Patient Data](#8-synthetic-patient-data)
+9. [Data-centric ML](#9-data-centric-ml)
+10. [More LHS Project Examples](#10-more-lhs-project-examples)
+11. [Related Resources](#11-related-resources)
+- [References](#references)
+
+<br>
+
 # Summary
 
 This Learning Health System (LHS) Quick Guide is focused on providing practical information for developers and health organizations to get started with developing LHS quickly.
@@ -22,7 +40,7 @@ The guide's main goals:
 >2. Explain it is more practical to build small ML-LHS units rather than being bogged down in the grand LHS picture.
 >3. Propose a new "synthetic+real" strategy: simulate ML-LHS unit with synthetic patients first and then apply the process to build ML-LHS unit with real EHR data.
 
-Based on LHS experiments, I have made the following hypotheses to encourage more research on ML-LHS:
+The guide makes the following hypotheses about ML-LHS:
 
 >1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
@@ -636,7 +654,7 @@ The same open patient data are also published in the Harvard Dataverse: [Synthet
 
 The Clinical Practice Research Datalink (CPRD) in the UK has used its primary care data to create high-fidelity synthetic datasets replicate the complex clinical relationships in real primary care patient data while protecting patient privacy. The [CPRD synthetic data](https://cprd.com/synthetic-data) can be used instead of real patient data for complex statistical analyses as well as machine learning and artificial intelligence research applications. Through integrating outlier analysis with graphical modelling and resampling, CPRD approach can achieve synthetic data sets that are not significantly different from original ground truth data in terms of feature distributions, feature dependencies, and sensitivity analysis statistics when inferring machine learning classifiers. CPRD synthetic datasets can be used for training purposes or to improve algorithms or machine learning workflows. (Tucker 2020).
 
-- NCI Cancer synthetic data:
+- NCI SEER cancer synthetic data:
 
 Based on the publicly available cancer registry data from the NCI Surveillance Epidemiology and End Results (SEER) program, Goncalves et al. generated and evaluated synthetic patient data for cancers. (Goncalves 2020)  
 
@@ -644,9 +662,11 @@ They compared the existing methodologies to generate synthetic electronic health
 
 ## Machine learning using synthetic patient data
 
-An IBM group used 1M Synthea patients to build 2D patient pathway and conducted neural network CNN and RNN machine learning. The resulting model was able to predict 10 common diseases with 80-90% accuracy. (Sbodio 2021). This study used an open source [patient pathway extractor](https://github.com/Alvearie/patient_pathway_extractor) for turning Synthea records to data ready for machine learning. 
+- We used Synthea patient data to build machine learning models for simulating ML-LHS unit as described in above section. (Chen 2022)
 
-Using three synthetic data generators that apply classification and regression trees, parametric, and Bayesian network approaches, Rankin et al. generated synthetic data from 19 open health datasets. They trained common machine learning models with the synthetic data and real data separately, and then measured model performance using only independent real data sets. The results showed only small decreases in accuracy for models trained with synthetic data compared to models trained with real data. (Rankin 2020)
+- An IBM group used 1M Synthea patients to build 2D patient pathway and conducted neural network CNN and RNN machine learning. The resulting model was able to predict 10 common diseases with 80-90% accuracy. (Sbodio 2021). This study used an open source [patient pathway extractor](https://github.com/Alvearie/patient_pathway_extractor) for turning Synthea records to data ready for machine learning. 
+
+- Using three synthetic data generators that apply classification and regression trees, parametric, and Bayesian network approaches, Rankin et al. generated synthetic data from 19 open health datasets. They trained common machine learning models with the synthetic data and real data separately, and then measured model performance using only independent real data sets. The results showed only small decreases in accuracy for models trained with synthetic data compared to models trained with real data. (Rankin 2020)
 
 ## Limitations
 
