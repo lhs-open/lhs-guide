@@ -5,7 +5,7 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 
 ## Contents
 
-- [Summary](#summary)
+0. [Summary](#summary)
 1. [The vision of Learning Health Systems](#1-the-vision-of-learning-health-systems)
 2. [Evidence and Knowledge Generation](#2-evidence-and-knowledge-generation)
 3. [Knowledge and Model Dissemination](#3-knowledge-and-model-dissemination)
@@ -17,7 +17,7 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 9. [Data-centric ML](#9-data-centric-ml)
 10. [More LHS Project Examples](#10-more-lhs-project-examples)
 11. [Related Resources](#11-related-resources)
-- [References](#references)
+12. [References](#12-references)
 
 <br>
 
@@ -45,7 +45,7 @@ The guide makes the following hypotheses about ML-LHS:
 >1. LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
 
-The LHS Practical Guide is part of the [Open LHS Project](https://github.com/lhs-open) on GitHub, aimed to encourage sharing and collaborations for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/). It will be updated when new LHS information becomes available. It is open source at https://github.com/lhs-open/lhs-guide on GitHub. 
+The LHS Practical Guide is part of the [Open LHS Project](https://github.com/lhs-open/lhs-guide) on GitHub, aimed to encourage sharing and collaborations for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on [GitHub Pages](https://lhs-open.github.io/lhs-guide/) and will be updated when new LHS information becomes available. 
 
 <br>
 
@@ -813,7 +813,7 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 
 <br>
 
-# References
+# 12. References
 
 - Abraham, E., C. Blanco, C. Castillo Lee, J. B. et al. 2016. Generating Knowledge from Best Care: Advancing the Continuously Learning Health System. NAM Perspectives. Discussion Paper, National Academy of Medicine, Washington, DC. https://doi.org/10.31478/201609b
 
