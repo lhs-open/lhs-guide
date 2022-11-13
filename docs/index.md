@@ -5,7 +5,6 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 
 ## Contents
 
-0. [Summary](#summary)
 1. [The vision of Learning Health Systems](#1-the-vision-of-learning-health-systems)
 2. [Evidence and Knowledge Generation](#2-evidence-and-knowledge-generation)
 3. [Knowledge and Model Dissemination](#3-knowledge-and-model-dissemination)
