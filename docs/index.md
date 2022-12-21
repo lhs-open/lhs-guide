@@ -53,11 +53,9 @@ The [LHS Practical Guide](https://lhs-open.github.io/lhs-guide/) is part of the 
 
 >After reading this quick practical guide, hopefully you will be more familiar with LHS and ready to try ML or ML-LHS. Since synthetic data may accelerate your project, you may first check the [Open Synthetic Patient Data](https://github.com/lhs-open/synthetic-data) GitHub repository and Harvard dataverse. If they do not have the data you need, you may email me (ajchen(at)web2express.org). Because of its extendable design, Synthea may model any diseases and conditions to generate the synthetic patient data you need. 
 
----
-
-
 <br>
 
+---
 # 1. The vision of Learning Health Systems
 
 ## The LHS vision from NAM
@@ -208,8 +206,8 @@ The "learning" in Learning Health System means machine learning, continuous lear
 
 In essence, LHS is about revolutionizing knowledge generation and application in medicine. The next two sections dive deeper into the "knowledge business."
 
-<br>
 
+---
 # 2. Medical Evidence and Knowledge Generation
 
 ## Study methods
@@ -303,8 +301,8 @@ After the NAM’s series of LHS reports were released, EMR has quickly become ub
 
 In my view, this environment of unprecedented digital health data plus machine learning is giving rise to unforeseen possibilities for medical knowledge generation and beyond in the context of LHS. On the one hand, a large number of machine learning studies have directly used routine EMR data to learn and build knowledgebases about clinical events such as diagnoses and treatments. On the other hand, ML models are being built from EMR data without prior knowledge or generating traditional forms of knowledge. ML models, particularly those uninterpretable models, will push the traditional concept of learning and disseminating new knowledge in LHS into uncharted territory - disseminating machine learning models without knowledge about or from the models (a situation where it works but we don’t know why). 
 
-<br>
 
+---
 # 3. Medical Knowledge and Model Dissemination
 
 ## Dissemination through knowledge-based CDS 
@@ -328,8 +326,8 @@ Data from electronic health records, although imperfect, yield reasonably accura
 
 As I described in the previous knowledge generation section, machine learning models can be built from one or many EMRs. Depending on the algorithms used, some are interpretable while some not. There will be challenges in disseminating the uninterpretable ML models even though they are high-performance. 
 
-<br>
 
+---
 # 4. Building Learning Health Systems
 
 ## The NAM reports’ LHS approach
@@ -366,8 +364,8 @@ Development of small but effective ML-LHS is facilitated by open data and softwa
 
 The following sections will describe the first simulation of risk prediction LHS with synthetic patients and provide examples of ongoing LHS projects using real EHR data. Based on the initial results of these studies, I propose a new **"synthetic+real" strategy** to build small ML-LHS units: first to simulate a ML-LHS with synthetic data and then to apply the process to real EHR data. 
 
-<br>
 
+---
 # 5. ML-enabled LHS Simulation
 
 With the new synthetic patient technologies, it is now possible to synthesize patient records for a simulated EMR and then simulate ML-LHS using the synthetic data to explore the benefits of LHS. LHS simulation represents an efficient way to develop ML algorithms and LHS processes that can apply to building ML-LHS units with real patient data. Since synthetic patient data based on public data are free of privacy concerns, LHS simulation can serve as a vehicle for data sharing and algorithm development collaboration across organizations. This simulation step will potentially save a lot of time in the overall LHS project schedules. 
@@ -417,12 +415,12 @@ NOTE: The ML models in LHS simulation are for research only and not for health c
 
 Based on the LHS simulation study, I have formulated two hypotheses for ML-LHS: 
 
-1. ML-LHS Performance Hypothesis: With a data-centric approach, ML-LHS units can ultimately achieve high recall and precision (>95%) for risk prediction of most diseases. 
+>- ML-LHS Performance Hypothesis: With a data-centric approach, ML-LHS units can ultimately achieve high recall and precision (>95%) for risk prediction of most diseases. 
 
-2. ML-LHS Equity Hypothesis: Small community and rural clinics may not be able to build ML models independently with limited data. Yet they can join clinical research networks (CRN) led by big hospitals so that the ML-LHS running in CRN can incorporate data from the clinics in learning cycles and thus enable the clinics with the same ML/AI tools.
+>- ML-LHS Equity Hypothesis: Small community and rural clinics may not be able to build ML models independently with limited data. Yet they can join clinical research networks (CRN) led by big hospitals so that the ML-LHS running in CRN can incorporate data from the clinics in learning cycles and thus enable the clinics with the same ML/AI tools.
 
-<br>
 
+---
 # 6. ML-enabled LHS Project Examples
 
 ML-enabled LHS holds great promises in transforming health care and public health to more effective and efficient systems. I want to emphasize one particular application area dear to my heart: health equity. 
@@ -449,8 +447,6 @@ Unfortunately, it still lacks complete ML-LHS examples published in peer-reviewe
 
 >   Continual mining of data from our electronic health record is generating real-world evidence that informs local healthcare practices and influences national policies.
 
-<br>
-
 [looking for more examples …]
 
 
@@ -472,8 +468,8 @@ The LHS field needs successful examples of ML-enabled LHS to demonstrate that ML
 
 In the following sections, you will find more detailed information on health data, synthetic patients, and data-driven machine learning, which are the key components of the learning cycles in ML-LHS. 
 
-<br>
 
+---
 # 7. Health Data
 
 ## NAM reports
@@ -557,8 +553,8 @@ Other open health data sources:
 -	[Harvard DBMI NLP datasets](https://portal.dbmi.hms.harvard.edu/)
 -   [Elsevier Mendeley Data repository](https://data.mendeley.com/)
 
-<br>
 
+---
 # 8. Synthetic Patient Data
 
 Because real patient data are protected and offer limited access, it is critical to have synthetic patient data available for research and development. Completely synthetic patient data should be free of any privacy concerns. For example, Synthea synthetic patient data are generated from models based on public data and thus recently become widely used in developing and testing new health care information processes. 
@@ -672,8 +668,8 @@ They compared the existing methods to generate synthetic electronic health recor
 
 Synthea data are considered realistic but not real. They have proven useful in developing and testing ML methods or processes, but the differences between Synthea and real patient data determine where the ML models can be used. Several limitations appear in the Synthea data: the limited number of diseases, some data are biased toward certain patient populations, and some health factors such as symptoms are missing. Due to the discrepancies, any ML model built from synthetic data cannot be used directly in an actual clinical setting. 
 
-<br>
 
+---
 # 9. Data-centric Machine Learning
 
 ## Healthcare AI
@@ -721,25 +717,21 @@ In a 2022 interview with MIT Management magazine, Dr. Andrew Ng described why it
 
 I recognize that ML-LHS is intrinsically a data-centric ML approach, which is determined by its learning cycles. Equally important, ML-LHS is deployment-oriented by default because its ML is required to be deployed in production. Apparently, when experts at NAM fundamentally redesigned the future healthcare systems as LHS, they had already identified the two characteristics, data-centric and deployment-oriented, were essential to building intelligent healthcare systems. To ensure LHS has the two features, NAM has proposed the LHS framework with research embedded in the clinical delivery. Unfortunately, this advanced AI strategy of LHS framework has been drastically overlooked since its inception until recently the field of healthcare AI has been hit by major issues of reliability and generalizability. 
 
-> **It is time now to embrace LHS as a healthcare AI strategy.**
+>   **It is time now to embrace LHS as a healthcare AI strategy.**
 
 In the LHS framework, the data-centric and model-centric approaches of ML/AI are not exclusive, rather they are complementary to each other. As I discussed in the Nature Sci Rep paper of ML-LHS simulation, it deserves serious research to understand the balance of these two approaches in developing LHS based on EMR data. For a general recommendation as a starting point, it would be more productive to first focus on data-centric approach using machine learning base models. After learning cycles run smoothly and ML performance gains from data increase alone plateau, model-centric approach can then be employed to further optimize the models by hyperparameter tuning or modifying the underlying algorithms.
 
 Based on these insights to ML-LHS, I propose another new hypothesis here:
--	ML-LHS AI Hypothesis: Because ML-LHS has both data-centric and deployment-oriented features built-in, most healthcare AI based on EMR data can be developed and deployed in the LHS framework.
+>-	ML-LHS AI Hypothesis: Because ML-LHS has both data-centric and deployment-oriented features built-in, most healthcare AI based on EMR data can be developed and deployed in the LHS framework.
  
 ## EMR-wide ML
 EMR-wide ML refers to machine learning using all features and data available in EMRs unlike the traditional statistical modeling that limits the variables used to a small number. Since lots of EMR data are in unstructured form, EMR-wide ML usually employs NLP to extract and standardize data from its text. 
 
 Depending on the tasks, two broad groups of ML algorithms can be used to build prediction models:
 
-1.	Traditional common ML algorithms: gradient boosting (e.g. [XGBoost](https://xgboost.readthedocs.io/en/stable/)), Random forest (RF), support vector machines (SVM), etc. 
+1.	Traditional common ML algorithms: gradient boosting (e.g. [XGBoost](https://xgboost.readthedocs.io/en/stable/)), Random forest (RF), support vector machines (SVM), etc.  In traditional machine learning on EHR data, patients are simply represented as a vector of attributes or features in models. The approach relies on experts’ ability to define the appropriate features and design the model’s structure. 
 
-In traditional machine learning on EHR data, patients are simply represented as a vector of attributes or features in models. The approach relies on experts’ ability to define the appropriate features and design the model’s structure. 
-
-2.	Deep neural network algorithms (or [deep learning](https://healthitanalytics.com/features/what-is-deep-learning-and-how-will-it-change-healthcare)): artificial neural networks (ANN), convolutional neural networks (CNN), recurrent neural networks (RNN), Long Short Term Memory (LSTM), Generative Adversarial Networks (GAN), Gated Recurrent Unit (GRU), feedforward network (FFN), etc. 
-
-Deep learning models can learn useful representations from raw or minimally-processed data, with minimal need for expert guidance. This happens through a sequence of layers, each employing a large number of simple linear and nonlinear transformations to map their corresponding inputs to a representation. This progress across layers results in a final representation in which the data points form distinguishable patterns (Li 2020, Solares 2020).
+2.	Deep neural network algorithms (or [deep learning](https://healthitanalytics.com/features/what-is-deep-learning-and-how-will-it-change-healthcare)): artificial neural networks (ANN), convolutional neural networks (CNN), recurrent neural networks (RNN), Long Short Term Memory (LSTM), Generative Adversarial Networks (GAN), Gated Recurrent Unit (GRU), feedforward network (FFN), etc. Deep learning models can learn useful representations from raw or minimally-processed data, with minimal need for expert guidance. This happens through a sequence of layers, each employing a large number of simple linear and nonlinear transformations to map their corresponding inputs to a representation. This progress across layers results in a final representation in which the data points form distinguishable patterns (Li 2020, Solares 2020).
 
 The following studies are some representative examples of EMR-wide ML:
 
@@ -757,8 +749,8 @@ The following studies are some representative examples of EMR-wide ML:
 
 - There is a lack of prospective evaluation of ML models in clinical care delivery. Nature Digital Medicine 2022 published an example of model building plus clinical validation and monitoring. The process first identifies a clinical decision point that can benefit from risk prediction and uses EHR data to retrospectively build a 60-day ED visit prediction model for cancer patients at home. The process validates the model in a randomized prospective study, embeds the model in clinical workflow, and monitors its performance routinely (Coombs 2022).
 
-<br>
 
+---
 # 10. More LHS Project Examples
 
 -	FDA Sentinel System
@@ -801,8 +793,8 @@ The Protocol-Guided Rapid Evaluation of Veterans Experiencing New Transient Neur
 
 At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [randomized QI projects](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign) were developed in collaboration with the frontline care providers and staff to ensure seamless implementation with no additional burden. They verified the system-level interventions by LHS are effective in improving care qualities. Webinar [Video](https://rethinkingclinicaltrials.org/news/march-6-2020-creating-a-learning-health-system-through-randomization-leora-horwitz-md-mhs/).  (Horwitz 2019).
 
-<br>
 
+---
 # 11. LHS Related Resources
 
 ## Research & Development
@@ -828,8 +820,8 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 -	NAM: [The Learning Health System Series]( https://nam.edu/programs/value-science-driven-health-care/learning-health-system-series/).
 -	AHRQ: [Learning Health Systems](https://www.ahrq.gov/learning-health-systems/index.html)
 
-<br>
 
+---
 # 12. References
 
 - Abraham, E., C. Blanco, C. Castillo Lee, J. B. et al. 2016. Generating Knowledge from Best Care: Advancing the Continuously Learning Health System. NAM Perspectives. Discussion Paper, National Academy of Medicine, Washington, DC. https://doi.org/10.31478/201609b
@@ -910,16 +902,9 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 
 
 ---
-
-<br>
-
 ## Acknowledgements
 
 Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to the NAM LHS report series. Thanks to all references cited.
-
-<br>
-
-<br>
 
 12/20/2022 Updated.
 
