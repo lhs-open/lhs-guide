@@ -19,7 +19,6 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 11. [LHS Related Resources](#11-related-resources)
 12. [References](#12-references)
 
-<br>
 
 # Summary
 
@@ -441,11 +440,8 @@ Unfortunately, it still lacks complete ML-LHS examples published in peer-reviewe
   
 >- UC San Diego Health LHS (EL-Kareh 2022)
 
->   At UC San Diego Health, the COVID-19 pandemic has highlighted the unique benefits of applying high-reliability approaches to this “implementation arm” of the Learning Health System, resulting in an explicit focus on leveraging elements from both frameworks to develop a “Highly-reliable Learning Health System.”
+At UC San Diego Health, the COVID-19 pandemic has highlighted the unique benefits of applying high-reliability approaches to this “implementation arm” of the Learning Health System, resulting in an explicit focus on leveraging elements from both frameworks to develop a “Highly-reliable Learning Health System.” As a result, research faculty with expertise in the use of clinical data for modeling and implementing predictive algorithms are key partners with our operational teams.Continual mining of data from our electronic health record is generating real-world evidence that informs local healthcare practices and influences national policies.
 
->   As a result, research faculty with expertise in the use of clinical data for modeling and implementing predictive algorithms are key partners with our operational teams.
-
->   Continual mining of data from our electronic health record is generating real-world evidence that informs local healthcare practices and influences national policies.
 
 [looking for more examples …]
 
