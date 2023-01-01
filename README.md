@@ -1,7 +1,7 @@
 # Open LHS Practical Guide
 A quick practical guide for building learning health systems (LHS). It is focused on providing practical information for developers and clinical teams to get started with developing LHS quickly. The guide is dynamic - updated frequently when new information available. 
 
-[View LHS Practical Guide](https://lhs-open.github.io/lhs-guide/)
+[>>> View LHS Practical Guide >>>](https://lhs-open.github.io/lhs-guide/) 
 
 ## Main goals:
 
