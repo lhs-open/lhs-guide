@@ -4,4 +4,5 @@ use_directory_urls: false
 theme: readthedocs
 nav:
     - LHS Practical Guide: index.md
+    - LHS Practical Guide (Chinese): index_zh.md
 #    - Building ML-enable LHS: ml-lhs/index.html

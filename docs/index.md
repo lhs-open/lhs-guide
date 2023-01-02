@@ -1,23 +1,24 @@
 
 # Learning Health System Practical Guide
-AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum), Learning Health Community
 
-[Work in progress, [Chinese](index_zh.md)]
+AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum), Learning Health Community (nonprofit), Silicon Valley, California
+
+[1/2/2023 Updated. Translation: [Chinese](index_zh.md)]
 
 ## Contents
 
 1. [The vision of Learning Health Systems](#1-the-vision-of-learning-health-systems)
-2. [Medical Evidence and Knowledge Generation](#2-evidence-and-knowledge-generation)
-3. [Medical Knowledge and Model Dissemination](#3-knowledge-and-model-dissemination)
-4. [Building Learning Health Systems](#4-building-lhs)
+2. [Medical Evidence and Knowledge Generation](#2-medical-evidence-and-knowledge-generation)
+3. [Medical Knowledge and Model Dissemination](#3-medical-knowledge-and-model-dissemination)
+4. [Building Learning Health Systems](#4-building-learning-health-systems)
 5. [ML-enabled LHS Simulation](#5-ml-enabled-lhs-simulation)
 6. [ML-enabled LHS Project Examples](#6-ml-enabled-lhs-project-examples)
 7. [Health Data](#7-health-data)
 8. [Synthetic Patient Data](#8-synthetic-patient-data)
-9. [Data-centric Machine Learning](#9-data-centric-ml)
-10. [More LHS Project Examples](#10-more-lhs-project-examples)
-11. [LHS Related Resources](#11-related-resources)
-12. [References](#12-references)
+9. [LHS as Healthcare AI Framework](#9-lhs-as-healthcare-ai-framework?)
+10. [LHS Related Resources](#10-lhs-related-resources)
+
+[References](#references)
 
 
 # Summary
@@ -46,15 +47,16 @@ The guide makes the following hypotheses about ML-LHS:
 
 The [LHS Practical Guide](https://lhs-open.github.io/lhs-open/lhs-guide/) is part of the Open LHS Project on GitHub, aimed to encourage sharing and collaboration for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on GitHub Pages and will be updated when new LHS information becomes available. 
 
-### Next step
-
 ---
+
+### Next step
 
 >After reading this quick practical guide, hopefully you will be more familiar with LHS and ready to try ML or ML-LHS. Since synthetic data may accelerate your project, you may first check the [Open Synthetic Patient Data](https://github.com/lhs-open/synthetic-data) GitHub repository and Harvard dataverse. If they do not have the data you need, you may email me (ajchen(at)web2express.org). Because of its extendable design, Synthea may model any diseases and conditions to generate the synthetic patient data you need. 
 
+---
+
 <br>
 
----
 # 1. The vision of Learning Health Systems
 
 ## The LHS vision from NAM
@@ -205,8 +207,8 @@ The "learning" in Learning Health System means machine learning, continuous lear
 
 In essence, LHS is about revolutionizing knowledge generation and application in medicine. The next two sections dive deeper into the "knowledge business."
 
-
 ---
+
 # 2. Medical Evidence and Knowledge Generation
 
 ## Study methods
@@ -300,8 +302,8 @@ After the NAM’s series of LHS reports were released, EMR has quickly become ub
 
 In my view, this environment of unprecedented digital health data plus machine learning is giving rise to unforeseen possibilities for medical knowledge generation and beyond in the context of LHS. On the one hand, a large number of machine learning studies have directly used routine EMR data to learn and build knowledgebases about clinical events such as diagnoses and treatments. On the other hand, ML models are being built from EMR data without prior knowledge or generating traditional forms of knowledge. ML models, particularly those uninterpretable models, will push the traditional concept of learning and disseminating new knowledge in LHS into uncharted territory - disseminating machine learning models without knowledge about or from the models (a situation where it works but we don’t know why). 
 
-
 ---
+
 # 3. Medical Knowledge and Model Dissemination
 
 ## Dissemination through knowledge-based CDS 
@@ -325,8 +327,8 @@ Data from electronic health records, although imperfect, yield reasonably accura
 
 As I described in the previous knowledge generation section, machine learning models can be built from one or many EMRs. Depending on the algorithms used, some are interpretable while some not. There will be challenges in disseminating the uninterpretable ML models even though they are high-performance. 
 
-
 ---
+
 # 4. Building Learning Health Systems
 
 ## The NAM reports’ LHS approach
@@ -363,8 +365,8 @@ Development of small but effective ML-LHS is facilitated by open data and softwa
 
 The following sections will describe the first simulation of risk prediction LHS with synthetic patients and provide examples of ongoing LHS projects using real EHR data. Based on the initial results of these studies, I propose a new **"synthetic+real" strategy** to build small ML-LHS units: first to simulate a ML-LHS with synthetic data and then to apply the process to real EHR data. 
 
-
 ---
+
 # 5. ML-enabled LHS Simulation
 
 With the new synthetic patient technologies, it is now possible to synthesize patient records for a simulated EMR and then simulate ML-LHS using the synthetic data to explore the benefits of LHS. LHS simulation represents an efficient way to develop ML algorithms and LHS processes that can apply to building ML-LHS units with real patient data. Since synthetic patient data based on public data are free of privacy concerns, LHS simulation can serve as a vehicle for data sharing and algorithm development collaboration across organizations. This simulation step will potentially save a lot of time in the overall LHS project schedules. 
@@ -418,8 +420,8 @@ Based on the LHS simulation study, I have formulated two hypotheses for ML-LHS:
 
 >- ML-LHS Equity Hypothesis: Small community and rural clinics may not be able to build ML models independently with limited data. Yet they can join clinical research networks (CRN) led by big hospitals so that the ML-LHS running in CRN can incorporate data from the clinics in learning cycles and thus enable the clinics with the same ML/AI tools.
 
-
 ---
+
 # 6. ML-enabled LHS Project Examples
 
 ML-enabled LHS holds great promises in transforming health care and public health to more effective and efficient systems. I want to emphasize one particular application area dear to my heart: health equity. 
@@ -464,8 +466,8 @@ The LHS field needs successful examples of ML-enabled LHS to demonstrate that ML
 
 In the following sections, you will find more detailed information on health data, synthetic patients, and data-driven machine learning, which are the key components of the learning cycles in ML-LHS. 
 
-
 ---
+
 # 7. Health Data
 
 ## NAM reports
@@ -549,8 +551,8 @@ Other open health data sources:
 -	[Harvard DBMI NLP datasets](https://portal.dbmi.hms.harvard.edu/)
 -   [Elsevier Mendeley Data repository](https://data.mendeley.com/)
 
-
 ---
+
 # 8. Synthetic Patient Data
 
 Because real patient data are protected and offer limited access, it is critical to have synthetic patient data available for research and development. Completely synthetic patient data should be free of any privacy concerns. For example, Synthea synthetic patient data are generated from models based on public data and thus recently become widely used in developing and testing new health care information processes. 
@@ -560,14 +562,16 @@ Because real patient data are protected and offer limited access, it is critical
 [Synthea](https://synthetichealth.github.io/synthea/) is an open-source, synthetic patient generator that models the medical history of synthetic patients. It generates high-quality, synthetic, realistic but not real, patient data that are free from cost, privacy, and security restrictions. It provides research with patient data that are otherwise legally or practically unavailable (Walonoski 2018).
 
 ### Synthea software:
+
 [Synthea source code](https://github.com/synthetichealth/synthea) is available on GitHub. Following its instructions, you can run Synthea software to create synthetic patient data. Design and more information are on [Synthea wiki](https://github.com/synthetichealth/synthea/wiki). 
 
-### Software design:
+### Synthea design:
+
 The Synthea system generates synthetic patient records using an agent-based approach. Each synthetic patient is generated independently, as they progress from birth to death through modular representations of various diseases and conditions. Each patient runs through every disease module in the system. 
 
 Synthea disease modules are based on a [Generic Module Framework](https://github.com/synthetichealth/synthea/wiki/Generic-Module-Framework) that creates state machines representing the progression and standards of care for common diseases, using a set of predefined states, transitions, and conditional logic. Modules are built based on publicly available health data, including disease incidence and prevalence statistics, and clinical practice guidelines.
 
-### Covered diseases:
+### Synthea-covered diseases:
 
 Synthea currently has over 90 different modules, each modeling a disease or condition. The module builder page lists the currently supported disease modules. The [Module Gallery](https://github.com/synthetichealth/synthea/wiki/Module-Gallery) lists modules for some common diseases and conditions.
  
@@ -588,17 +592,16 @@ Urinary Tract Infections |	Drug Use Disorders (limited to Opioids)
 
 <br> 
 
-### Extensibility:
+### Synthea Extensibility:
+
 The beauty of Synthea’s module design is that you can add new modules to cover the diseases and conditions you are interested in but are missing in the Synthea software. Tools and resources see:
 
 -	[Module Builder](https://synthetichealth.github.io/module-builder/).
 -	[Module Builder Tutorial](https://github.com/synthetichealth/synthea/wiki/Module-Builder-Tutorial).
 -	[Complete Example Walk-through](https://github.com/synthetichealth/synthea/wiki/Generic-Module-Framework%3A-Complete-Example). 
 
-### Data validation:
-See published studies for external validation of Synthea patient data. (Chen 2019).
+### Synthea patient medical records:
 
-### Patient medical records:
 Synthea patient medical records can be in standard FHIR format or CSV format. For an easier view of data elements in the records of different domains, see the [list of record csv files](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary) and the data fields in each file.  
 
 **Table: Synthea patient medical record files.**
@@ -626,7 +629,11 @@ supplies.csv	|Supplies used in the provision of care.
 
 <br>
 
-## Open synthetic patient data
+### Synthea data validation:
+
+See published studies for external validation of Synthea patient data (Chen 2019).
+
+## Open Synthea patient data
 
 - MITRE
 
@@ -634,7 +641,7 @@ Synthea developer MITRE Corp, a non-profit organization, provides open [Synthea 
 
 - Open LHS Project
 
-The Open LHS Project has started an [Open Synthetic Patient Data repository](https://github.com/lhs-open/synthetic-data) on GitHub. The complete collection of synthetic patient datasets is publicly available in the Harvard Dataverse: [Synthetic Patient Data ML Dataverse](https://dataverse.harvard.edu/dataverse/synthetic-patient-ml). It includes original Synthea patient records and pre-processed datasets ready for machine learning. 
+The Open LHS Project has started an [Open Synthetic Patient Data repository](https://github.com/lhs-open/synthetic-data) on GitHub. It was seeded with the pre-processed Synthea datasets ready for machine learning and some original Synthea patient records that were used in the ML-LHS simulation study above. Because its data size is too big, the complete collection of synthetic patient datasets is publicly available in the Harvard Dataverse: [Synthetic Patient Data ML Dataverse](https://dataverse.harvard.edu/dataverse/synthetic-patient-ml). 
 
 ## Other synthetic patient data
 
@@ -656,26 +663,29 @@ They compared the existing methods to generate synthetic electronic health recor
 
 - We used Synthea patient data to build machine learning models for simulating ML-LHS units as described in the above sections (Chen 2022).
 
-- An IBM group used 1 million Synthea patients to build a 2D patient pathway and conducted neural network CNN and RNN machine learning. The resulting model was able to predict ten common diseases with 80-90% accuracy (Sbodio 2021). This study used an open-source [patient pathway extractor](https://github.com/Alvearie/patient_pathway_extractor) for turning Synthea records into data ready for machine learning. 
+- An IBM group used 1 million Synthea patients to build a 2D patient pathway and conducted neural network CNN and RNN machine learning. The resulting model was able to predict ten common diseases with 80-90% accuracy (Sbodio 2021). This study used an open-source patient pathway extractor for turning Synthea records into data ready for machine learning. 
 
 - Using three synthetic data generators that apply classification and regression trees, parametric, and Bayesian network approaches, Rankin et al. generated synthetic data from 19 open health datasets. They trained common machine learning models with the synthetic data and real data separately, and then measured model performance using only independent real data sets. The results showed only small decreases in accuracy for models trained with synthetic data compared to models trained with real data (Rankin 2020).
 
 ## Limitations
 
-Synthea data are considered realistic but not real. They have proven useful in developing and testing ML methods or processes, but the differences between Synthea and real patient data determine where the ML models can be used. Several limitations appear in the Synthea data: the limited number of diseases, some data are biased toward certain patient populations, and some health factors such as symptoms are missing. Due to the discrepancies, any ML model built from synthetic data cannot be used directly in an actual clinical setting. 
-
+Synthea data are considered realistic but not real. They have proven useful in developing and testing ML methods or processes, but the differences between Synthea and real patient data determine where the ML models can be used. Several limitations appear in the Synthea data: limited number of diseases; some data biased toward certain patient populations, and missing some health factors such as symptoms. Due to the discrepancies, any ML model built from synthetic data cannot be used directly in an actual clinical setting. 
 
 ---
-# 9. Data-centric Machine Learning
+
+# 9. LHS as Healthcare AI Framework?
 
 ## Healthcare AI
+
+[SOURCE: NAM 2019 special AI report]
+
 NAM 2019 special report, “Artificial Intelligence in Health Care: The Hope, the Hype, the Promise, the Peril”, outlines the current and near-term AI solutions; highlights the challenges, limitations, and best practices for AI development, adoption, and maintenance; offers an overview of the legal and regulatory landscape for AI tools designed for health care application; prioritizes the need for equity, inclusion, and a human rights lens for this work; and outlines key considerations for moving forward. (NAM 2019, Matheny 2020). See [webinar video](https://nam.edu/event/webinar-artificial-intelligence-and-health-care/).
 
 AI was proposed in 1950s and had gone through two “AI Winters.” The current resurgence of AI started around 2010 due to the success of machine learning and data science techniques as well as significant increases in computational storage and power. It has fueled the growth of huge consumer businesses like Google, Amazon, and Apple. In addition to common machine learning techniques like gradient boosting, random forest, support vector machines, and artificial neural networks, deep learning systems based on various neural networks have led AI development to a new high. 
 
 AI is poised to make transformative and disruptive advances in health care. The following table lists some of the healthcare applications of machine learning in the report. 
 
-**Table: Example healthcare applications of machine learning.**
+**Table: Example healthcare applications of machine learning**
 
 User Group	|Applications|
 ------------|------------|
@@ -694,8 +704,6 @@ However, few examples of AI deployment and usage within health care delivery exi
 Nonetheless, the report describes a framework for evaluation, decision making, and adoption of clinical AI applications in health care delivery systems and hospitals. It emphasizes that **healthcare AI should be implemented and deployed in the context of learning health systems**. It maps how AI could be considered within the LHS for each of the ten recommended areas outlined in the NAM 2013 "Best Care at Lower Cost" report.  
 
 Since LHS has research embedded in health care practice, it must design ML model deployment as an integral part of the system. I think this requirement is fundamentally different from the usual AI research, but it is in sync with the requirements of LHS. Increasing the implementation of LHS will result in more actual ML/AI deployments in health care settings.
-
-SOURCE: NAM 2019 special AI report.
 
 ## Data-centric ML
 
@@ -717,10 +725,11 @@ I recognize that ML-LHS is intrinsically a data-centric ML approach, which is de
 
 In the LHS framework, the data-centric and model-centric approaches of ML/AI are not exclusive, rather they are complementary to each other. As I discussed in the Nature Sci Rep paper of ML-LHS simulation, it deserves serious research to understand the balance of these two approaches in developing LHS based on EMR data. For a general recommendation as a starting point, it would be more productive to first focus on data-centric approach using machine learning base models. After learning cycles run smoothly and ML performance gains from data increase alone plateau, model-centric approach can then be employed to further optimize the models by hyperparameter tuning or modifying the underlying algorithms.
 
-Based on these insights to ML-LHS, I propose another new hypothesis here:
+Based on these insights to ML-LHS, I propose the third ML-LHS hypothesis here:
 >-	ML-LHS AI Hypothesis: Because ML-LHS has both data-centric and deployment-oriented features built-in, most healthcare AI based on EMR data can be developed and deployed in the LHS framework.
  
 ## EMR-wide ML
+
 EMR-wide ML refers to machine learning using all features and data available in EMRs unlike the traditional statistical modeling that limits the variables used to a small number. Since lots of EMR data are in unstructured form, EMR-wide ML usually employs NLP to extract and standardize data from its text. 
 
 Depending on the tasks, two broad groups of ML algorithms can be used to build prediction models:
@@ -745,80 +754,63 @@ The following studies are some representative examples of EMR-wide ML:
 
 - There is a lack of prospective evaluation of ML models in clinical care delivery. Nature Digital Medicine 2022 published an example of model building plus clinical validation and monitoring. The process first identifies a clinical decision point that can benefit from risk prediction and uses EHR data to retrospectively build a 60-day ED visit prediction model for cancer patients at home. The process validates the model in a randomized prospective study, embeds the model in clinical workflow, and monitors its performance routinely (Coombs 2022).
 
-
 ---
-# 10. More LHS Project Examples
 
--	FDA Sentinel System
+# 10. LHS Related Resources
 
-The [FDA Sentinel System](https://www.sentinelinitiative.org/) is a working example of a learning health system that is expanding with the potential to create a global learning health system that can support medical product safety assessments and other research. (Brown 2022).
+## More LHS Project Examples
 
--	Kaiser HCSRN
+-	[FDA Sentinel System](https://www.sentinelinitiative.org/): The FDA Sentinel System is a working example of a learning health system that is expanding with the potential to create a global learning health system that can support medical product safety assessments and other research. (Brown 2022).
 
-The [Health Care Systems Research Network](https://www.hcsrn.org/en/) (HCSRN, formerly HMORN) brings together the research centers from many of the nation's best and most innovative health care systems. Its mission is to improve individual and population health through research that connects the resources and capabilities of learning health care systems for all.
+-	[Kaiser HCSRN](https://www.hcsrn.org/en/): The Health Care Systems Research Network (HCSRN, formerly HMORN) brings together the research centers from many of the nation's best and most innovative health care systems. Its mission is to improve individual and population health through research that connects the resources and capabilities of learning health care systems for all.
 
--	PCORnet PaTH Clinical Research Network
+-	[PCORnet PaTH Clinical Research Network](https://www.pathnetwork.org/): As a PCORnet member, PaTH researchers work with clinicians, patients, and other stakeholders to develop meaningful research questions that can be integrated in care delivery for real-world health data. PaTH network includes many hospitals such as Geisinger, Johns Hopkins, PennState, Ohio State, Temple, Pittsburg, UPMC, and Michigan. 
 
-As a PCORnet member, [PaTH](https://www.pathnetwork.org/) researchers work with clinicians, patients, and other stakeholders to develop meaningful research questions that can be integrated in care delivery for real-world health data. PaTH network includes many hospitals such as Geisinger, Johns Hopkins, PennState, Ohio State, Temple, Pittsburg, UPMC, and Michigan. 
+-	[PEDsnet Children’s health research network LHS](https://pedsnet.org/): PEDSnet does research to improve the health and lives of children. It is a large, national community of hospitals and healthcare organizations, researchers and clinicians, and patients and families. This community works together to identify the most important research questions that can reduce children's suffering and support their healthy development. 
 
--	PEDsnet Children’s health research network LHS
+-	[ImproveCareNow](https://www.improvecarenow.org/): ImproveCareNow is a collaborative community where patients, parents, clinicians, and researchers work together to improve the health and care of children and youth with Crohn's disease and ulcerative colitis (also known as Inflammatory Bowel Disease or IBD). (Seid 2021).
 
-[PEDSnet](https://pedsnet.org/) does research to improve the health and lives of children. It is a large, national community of hospitals and healthcare organizations, researchers and clinicians, and patients and families. This community works together to identify the most important research questions that can reduce children's suffering and support their healthy development. 
+-	[ASCO CancerLinQ](https://cancerlinq.org/): CancerLinQ, a subsidiary of ASCO, is a mission-driven, non-profit health technology company with a goal of improving the quality of care and health outcomes for all cancer patients, and advancing evidence-based research. CancerLinQ has built a community of learning across different platforms, disciplines, and skillsets to enable improvements in care that can reach patients everywhere. 
 
--	ImproveCareNow LHS for Children with Crohn's Disease and Ulcerative Colitis
+-	[Stanford University Collaborative Health Outcomes Information Registry (CHOIR) project](https://choir.stanford.edu/): Stanford CHOIR network for pain management is the earliest open source, open standard, and highly flexible platform for a learning healthcare system to optimize care and advance real-world research discovery and innovation.
 
-[ImproveCareNow](https://www.improvecarenow.org/) is a collaborative community where patients, parents, clinicians, and researchers work together to improve the health and care of children and youth with Crohn's disease and ulcerative colitis (also known as Inflammatory Bowel Disease or IBD). (Seid 2021).
+-	[Stanford Hospital Covid Guidelines project](https://pubmed.ncbi.nlm.nih.gov/35235994/): In the Stanford Covid Guidelines project process, clinical questions posed by the hospital medicine division were answered in a rapid time frame and informed creation of institutional guidelines for the care of patients with COVID-19. (Dash 2022)
 
--	ASCO CancerLinQ
+-	[VA LHS for transient ischemic attack project](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770248): The Protocol-Guided Rapid Evaluation of Veterans Experiencing New Transient Neurological Symptoms (PREVENT) intervention was designed to align with the learning health care system model. This trial was intended to evaluate a multicomponent QI intervention to improve the quality of transient ischemic attack (TIA) care (Bravata 2020).
 
-[CancerLinQ](https://cancerlinq.org/), a subsidiary of ASCO, is a mission-driven, non-profit health technology company with a goal of improving the quality of care and health outcomes for all cancer patients, and advancing evidence-based research. CancerLinQ has built a community of learning across different platforms, disciplines, and skillsets to enable improvements in care that can reach patients everywhere. 
-
--	Stanford University Collaborative Health Outcomes Information Registry (CHOIR) project
-
-[Stanford CHOIR network for pain management](https://choir.stanford.edu/) is the earliest open source, open standard, and highly flexible platform for a learning healthcare system to optimize care and advance real-world research discovery and innovation.
-
--	Stanford Hospital Covid Guidelines project
-
-[Stanford Covid Guidelines](https://pubmed.ncbi.nlm.nih.gov/35235994/) project: Clinical questions posed by the hospital medicine division were answered in a rapid time frame and informed creation of institutional guidelines for the care of patients with COVID-19. (Dash 2022)
-
--	VA LHS for transient ischemic attack project 
-
-The Protocol-Guided Rapid Evaluation of Veterans Experiencing New Transient Neurological Symptoms ([PREVENT](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770248)) intervention was designed to align with the learning health care system model. This trial was intended to evaluate a multicomponent QI intervention to improve the quality of transient ischemic attack (TIA) care (Bravata 2020).
-
--	NYU Langone Health LHS Project 
-
-At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [randomized QI projects](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign) were developed in collaboration with the frontline care providers and staff to ensure seamless implementation with no additional burden. They verified the system-level interventions by LHS are effective in improving care qualities. Webinar [Video](https://rethinkingclinicaltrials.org/news/march-6-2020-creating-a-learning-health-system-through-randomization-leora-horwitz-md-mhs/).  (Horwitz 2019).
-
-
----
-# 11. LHS Related Resources
+-	[NYU Langone Health LHS Project](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign): At the Center for Healthcare Innovation and Delivery Science (CHIDS), the randomized QI projects were developed in collaboration with the frontline care providers and staff to ensure seamless implementation with no additional burden. They verified the system-level interventions by LHS are effective in improving care qualities. Webinar [Video](https://rethinkingclinicaltrials.org/news/march-6-2020-creating-a-learning-health-system-through-randomization-leora-horwitz-md-mhs/).  (Horwitz 2019).
 
 ## Research & Development
+
 -	[Stanford HAI Data-centric AI workshop](https://hai.stanford.edu/events/data-centric-ai-virtual-workshop)
 -	[Data-centric AI](https://datacentricai.org/)
 -	[Data-centric AI Benchmark](https://www.datacentricai.cc/benchmark/)
 
 ## Healthcare
+
 -	[PCORI LHS support](https://www.pcori.org/research-results/2017/supporting-next-generation-learning-health-systems-researchers) 
 
 ## Communities
+
 -	[Learning Health Community](https://www.learninghealth.org/)
 -   [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum) at Learning Health Community
 -	[The Learning Healthcare Project](https://learninghealthcareproject.org/)
 -	[DCI Network](https://www.dcinetwork.org/about-us) at Harvard Medical School 
 
 ## Education
+
 -	[Learning Health Systems journal](https://onlinelibrary.wiley.com/journal/23796146) 
 -	[Department of Learning Health Sciences](https://medicine.umich.edu/dept/lhs/education) at University of Michigan
 -	[Center for Learning Health System](https://celehs.hms.harvard.edu/index.html) at Harvard University 
 
 ## Policies
+
 -	NAM: [The Learning Health System Series]( https://nam.edu/programs/value-science-driven-health-care/learning-health-system-series/).
 -	AHRQ: [Learning Health Systems](https://www.ahrq.gov/learning-health-systems/index.html)
 
-
 ---
-# 12. References
+
+# References
 
 - Abraham, E., C. Blanco, C. Castillo Lee, J. B. et al. 2016. Generating Knowledge from Best Care: Advancing the Continuously Learning Health System. NAM Perspectives. Discussion Paper, National Academy of Medicine, Washington, DC. https://doi.org/10.31478/201609b
 
@@ -896,14 +888,13 @@ At the Center for Healthcare Innovation and Delivery Science (CHIDS), the [rando
 
 - Wang X, et al. Prediction of the 1-Year Risk of Incident Lung Cancer: Prospective Study Using Electronic Health Records from the State of Maine. J Med Internet Res 2019;21(5):e13260. doi: 10.2196/13260
 
+---
+
+# Acknowledgements
+
+Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to US NAM for its published LHS reports, no LHS vision without their research. Thanks to all references cited.
+
 
 ---
-## Acknowledgements
-
-Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to the NAM LHS report series. Thanks to all references cited.
-
-12/20/2022 Updated.
-
----
-©2022 Anjun Chen, All rights reserved.
+©2022-2023 Anjun Chen, All rights reserved.
    
