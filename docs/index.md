@@ -15,7 +15,7 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 6. [ML-enabled LHS Project Examples](#6-ml-enabled-lhs-project-examples)
 7. [Health Data](#7-health-data)
 8. [Synthetic Patient Data](#8-synthetic-patient-data)
-9. [LHS as Healthcare AI Framework](#9-lhs-as-healthcare-ai-framework?)
+9. [LHS as Healthcare AI Framework?](#9-lhs-as-healthcare-ai-framework)
 10. [LHS Related Resources](#10-lhs-related-resources)
 
 [References](#references)
@@ -120,7 +120,7 @@ The Office of National Coordinator (ONC) envisioned a nationwide learning health
 
 ## Redefining LHS
 
-SOURCE: NAM 2013 report “Best Care at Lower Cost.”
+[SOURCE: NAM 2013 report “Best Care at Lower Cost”]
 
 In 2013, IOM produced another report to re-iterate its vision of LHS: “Best Care at Lower Cost: The Path to Continuously Learning Health Care in America.” It explores the imperatives for change, the emerging tools that make transformation possible, the vision for a continuously learning health care system, and the path for achieving this vision. 
 
@@ -159,7 +159,8 @@ Source: NAM 2013 report “Best Care at Lower Cost.”
 <br>
 
 ## Characteristics of a Continuously Learning Health Care System
-SOURCE: NAM 2013 report "Best Care at Lower Cost." 
+
+[SOURCE: NAM 2013 report "Best Care at Lower Cost"] 
 
 Science and Informatics:
 
@@ -182,7 +183,6 @@ Continuous Learning Culture:
 -	Leadership-instilled culture of learning — A learning health care system is stewarded by leadership committed to a culture of teamwork, collaboration, and adaptability in support of continuous learning as a core aim.
 
 -	Supportive system competencies — A learning health care system constantly refines complex care operations and processes through ongoing team training and skill building, systems analysis and information development, and creation of the feedback loops for continuous learning and system improvement.
-
 
 ## Who is building LHS?
 
@@ -273,7 +273,6 @@ About observational study bias:
 -	Missing information and misclassified information that are directly or indirectly related to the health outcomes of interest may cause bias. 
 -	The instrumental variable method is one approach to controlling for unmeasured confounding.
 -	Because of the potential bias, an observational study needs careful design in order to prevent misleading results. Lessons can be learned from this negative example: The findings for hormone replacement therapy from a large number of observational studies conflicted with the RCT conducted by the Women’s Health Initiative.
-
 
 ## Large simple trial study method in LHS
 
@@ -391,7 +390,6 @@ The continuous learning and improving process of ML-LHS were simulated by adding
 
 Figure: Continuous improvement of lung cancer risk prediction ML models with dataset size increase over time. Comparing algorithms: XGBoost, RF, SVM, and KNN. Recall serves as the key performance measure for risk prediction in preventive screening. Initial dataset: 30K patients; 4 data updates, each time with 30K patients added. 
 
-
 ## Verification of the LHS process with stroke disease target
 
 To verify the effectiveness of the new data-centric ML-enabled LHS established in this study, the same LHS process should be able to develop risk prediction models for any target disease, such as stroke ,and achieve similar performances: high recalls and precisions with the same number of data update iterations. 
@@ -444,9 +442,9 @@ Unfortunately, it still lacks complete ML-LHS examples published in peer-reviewe
 
 At UC San Diego Health, the COVID-19 pandemic has highlighted the unique benefits of applying high-reliability approaches to this “implementation arm” of the Learning Health System, resulting in an explicit focus on leveraging elements from both frameworks to develop a “Highly-reliable Learning Health System.” As a result, research faculty with expertise in the use of clinical data for modeling and implementing predictive algorithms are key partners with our operational teams.Continual mining of data from our electronic health record is generating real-world evidence that informs local healthcare practices and influences national policies.
 
+<br>
 
 [looking for more examples …]
-
 
 ## New strategy for building ML-LHS
 
