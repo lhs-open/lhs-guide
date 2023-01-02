@@ -2,7 +2,7 @@
 # Learning Health System Practical Guide
 AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth.org/2020-lhs-technology-forum), Learning Health Community
 
-[Work in progress]
+[Work in progress, [Chinese](index_zh.md)]
 
 ## Contents
 
@@ -42,9 +42,9 @@ The guide makes the following hypotheses about ML-LHS:
 
 >1. ML-LHS Performance Hypothesis: Due to its inherent data-centric ML approach, ML-LHS can ultimately achieve high prediction performance (>95%) for most diseases and conditions. 
 >2. ML-LHS Equity Hypothesis: ML-LHS over hospital-led clinical research networks can effectively enable small clinics with seamlessly disseminated ML models and thus help reduce health care disparities in underserved populations.
->3. ML-LHS AI Hypothesis: Because of the intrinsic advantage of having both data-driven and deployment-oriented approaches in ML-LHS, most EMR-based AI tools can be developed and deployed in the form of ML-LHS. 
+>3. ML-LHS AI Hypothesis: Because of the intrinsic advantage of having both data-driven and deployment-oriented approaches in ML-LHS, most EMR-based AI tools can be more efficiently and effectively developed and deployed in the form of ML-LHS. 
 
-The [LHS Practical Guide](https://lhs-open.github.io/lhs-guide/) is part of the Open LHS Project on GitHub, aimed to encourage sharing and collaboration for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on GitHub Pages and will be updated when new LHS information becomes available. 
+The [LHS Practical Guide](https://lhs-open.github.io/lhs-open/lhs-guide/) is part of the Open LHS Project on GitHub, aimed to encourage sharing and collaboration for research, development, and implementation of LHS in the emerging field of learning health systems. As a dynamic technical documentation for LHS, this guide is published on GitHub Pages and will be updated when new LHS information becomes available. 
 
 ### Next step
 
