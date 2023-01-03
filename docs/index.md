@@ -15,7 +15,7 @@ AJ Chen, PhD, Co-Chair of [LHS Tech Forum Initiative](https://www.learninghealth
 6. [ML-enabled LHS Project Examples](#6-ml-enabled-lhs-project-examples)
 7. [Health Data](#7-health-data)
 8. [Synthetic Patient Data](#8-synthetic-patient-data)
-9. [LHS as Healthcare AI Framework?](#9-lhs-as-healthcare-ai-framework)
+9. [LHS as Healthcare AI Framework](#9-lhs-as-healthcare-ai-framework)
 10. [LHS Related Resources](#10-lhs-related-resources)
 
 [References](#references)
@@ -671,7 +671,7 @@ Synthea data are considered realistic but not real. They have proven useful in d
 
 ---
 
-# 9. LHS as Healthcare AI Framework?
+# 9. LHS as Healthcare AI Framework
 
 ## Healthcare AI
 

@@ -1,7 +1,7 @@
-site_name: LHS Practical Guide
+site_name: LHS
 site_url: ""
 use_directory_urls: false
-theme: readthedocs
+#theme: readthedocs
 nav:
     - LHS Practical Guide: index.md
     - LHS Practical Guide (Chinese): index_zh.md
