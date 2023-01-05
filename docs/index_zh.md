@@ -492,6 +492,7 @@ NAM 2013 研讨会总结报告《支持健康和医疗系统持续学习的数�
 ## 电子病历的数据内容
 
 以 [MIMIC-IV 医院数据](https://mimic.mit.edu/docs/iv/modules/hosp/)为例，信息包括：
+
 -	患者和入院详细信息 (patients, admissions, transfers)
 -	实验室数值 (labevents, d_labitems)
 -	微生物学培养 (microbiologyevents)
@@ -592,7 +593,8 @@ Synthea 的模块设计很巧妙，您可以添加新模块来涵盖您感兴趣
 
 Synthea 患者病历格式有标准的FHIR 格式或简单的CSV 格式。为了更方便地查看不同专项记录中的数据元素，请参阅[病历CSV文件列表](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary)和每个文件中的数据字段。
 
-**表格：Synthea 患者病历文件**
+**
+：Synthea 患者病历文件**
 
 病历文件	|解释
 --------|-----------
