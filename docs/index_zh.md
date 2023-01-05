@@ -21,7 +21,7 @@
 
 # 概述
 
-《LHS 智能医学系统实用指南》专注于为软件开发人员和医疗健康机构临床团队提供技术实用信息，帮助您快速启动对未来 Learning Health System (LHS)智能医学系统的研发和应用。
+《LHS 智能医学系统实用指南》专注于为软件开发人员和医疗健康机构临床团队提供技术实用信息，帮助您快速启动对未来 Learning Health System (LHS) 智能医学系统的研发和应用。
 
 指南内容基于我对美国医学科学院 (US National Academy of Medicine, NAM) 发表的 LHS 系列报告的理解和解读，以及 LHS 这一新领域迄今为止取得的进展。NAM 提出的 LHS 愿景和制定的 LHS 顶层框架不仅将引导美国整个医疗健康系统向智能医学循环学习和传播系统转型，而且会影响全球各国医疗健康系统的更新。
 
@@ -65,7 +65,7 @@ LHS 作为新的专业技术术语，本指南采用美国医学科学院发表�
 
 >   “In a learning health system, science, informatics, incentives, and culture are aligned for continuous improvement and innovation, with best practices seamlessly embedded in the delivery process and new knowledge captured as an integral by-product of the delivery experience.” (Source: NAM website - [The Learning Health System Series](https://nam.edu/programs/value-science-driven-health-care/learning-health-system-series/))
 
-LHS 愿景由美国医学科学院（前身为 US Institute of Medicine, IOM, 美国医学研究院）在一系列报告中提出和描述。下面我将总结报告中的相关信息，说明为什么需要 LHS，以及 LHS 是什么，并选出一些实例。如需详细信息，请参阅 NAM 网站上的 [智能医学系统报告系列](https://nam.edu/programs/value-science-driven-health-care/learning-health-system-series/) 。 
+LHS 愿景由美国医学科学院（前身为 US Institute of Medicine, IOM, 美国医学研究院）在一系列报告中提出和描述。下面我将总结报告中的相关信息，说明为什么需要 LHS，以及 LHS 是什么，并选出一些实例。如需详细信息，请参阅 NAM 网站上的 [智能医学系统报告系列](https://nam.edu/programs/value-science-driven-health-care/learning-health-system-series/)。 
 
 ## 我们为什么需要 LHS？ 
 
@@ -379,7 +379,7 @@ NAM 2013 年的《低成本的最佳医疗服务》报告展示了一个复杂�
 
 ## 肺癌风险预测模拟 ML-LHS 单元
 
-为了模拟一个有100万患者规模的真实医院EHR的肺癌风险预测 LHS，模拟 LHS 需包含大约 5,000 名肺癌患者。[Synthea患者合成软件](https://github.com/synthetichealth/synthea) 共合成了约 150,000 名患者的病历，其中约有 5,500 名患有肺癌。这些 Synthea 患者的 1,300 多万次就诊中有超过 1.75 亿数据点，包括 800 万个诊断、1.11 亿个观察、2,400 万个手术和 1,500 万个药物治疗。
+为了模拟一个有 100 万患者规模的真实医院 EHR 的肺癌风险预测 LHS，模拟 LHS 需包含大约 5,000 名肺癌患者。[Synthea患者合成软件](https://github.com/synthetichealth/synthea) 共合成了约 150,000 名患者的病历，其中约有 5,500 名患有肺癌。这些 Synthea 患者的 1,300 多万次就诊中有超过 1.75 亿数据点，包括 800 万个诊断、1.11 亿个观察、2,400 万个手术和 1,500 万个药物治疗。
 
 模拟 ML-LHS 的持续学习和改进过程从 30,000 名 Synthea 患者开始，共模拟四次学习循环，每次增添 30,000 名 Synthea 患者。每次更新数据集后，重建新的 XGBoost 预测模型。随着数据集规模从 30,000 名患者增加到 150,000 名患者，肺癌风险预测模型效果逐步提高：肺癌召回率 (recall) 从 0.849 增加到 0.936，精确率 (precision) 从 0.944 增加到 0.962， AUC 从 0.913 增加到 0.963，准确度 (accuracy) 从 0.938 增加到 0.975。如下图，与随机森林算法 (RF)、支持向量机算法 (SVM) 和 K 最邻近算法 (KNN) 的基础模型相比较，Synthea 患者的 XGBoost 肺癌模型的风险预测能力最好。
 
@@ -428,11 +428,11 @@ ML-LHS 平等假设提出，ML-LHS 具有减轻农村及弱势群体的医疗不
 
 ML-LHS 的概念很有前景，但也面临着巨大的挑战。由于 LHS 同时开展系统层面的研究和临床实践，它对初始 ML 模型的要求明显更高，大多数报道的基于 EHR 数据的 ML 模型可能无法满足这样的 LHS 要求。此外，由于患者数据出于隐私原因无法公开共享，能开放获取的 ML-LHS 研发所需的患者数据集极为不足，开发者缺乏数据的问题严重限制了在新兴 LHS 领域广泛开展机器学习研究的可能性。
 
-自从 2012 年 [第一届全美智能医学系统峰会](https://www.learninghealth.org/kanter-summit) 以来（我有幸受邀参加），几乎没有看到医院临床流程实施和运营 ML- LHS 的文献报告，我期望看到的报告应该展现几个关键的 LHS 特征，包括自动数据收集、连续机器学习、新知识和最佳实践的快速传播等。尽管一些研究已经报告了应用 LHS 概念在医院服务流程中改善质量的成功案例，但这些实例并未采用电子病历数据进行持续机器学习 (Bravata  2020, Horwitz 2019)，因此它们不属 ML-LHS 一类的。
+自从 2012 年 [第一届全美智能医学系统峰会](https://www.learninghealth.org/kanter-summit) 以来（我有幸受邀参加），几乎没有看到医院临床流程实施和运营 ML- LHS 的文献报告，我期望看到的报告应该展现几个关键的 LHS 特征，包括自动数据收集、连续机器学习、新知识和最佳实践的快速传播等。尽管一些研究已经报告了应用 LHS 概念在医院服务流程中改善质量的成功案例，但这些实例并未采用电子病历数据进行持续机器学习 (Bravata  2020, Horwitz 2019)，因此它们不属于 ML-LHS 一类的。
 
 ## 临床正在运营的 ML-LHS 实例
 
-非常可惜，仍未见严格意义的 ML-LHS原创文献报道。
+非常可惜，仍未见严格意义的 ML-LHS 原创文献报道。
 
 >-  实例：加州大学圣地亚哥分校医疗系统 LHS  
 
@@ -508,18 +508,22 @@ NAM 2013 研讨会总结报告《支持健康和医疗系统持续学习的数�
 ## 开放共享健康数据
 适当开放共享部分脱敏的患者健康数据也很必要，因而有少数医疗机构开放了少量数据，这类开放数据要求使用者申请，被授权后才可得到脱敏患者数据。
 
-共享EHR 数据：
+共享 EHR 数据：
 
 -	[MIT MIMIC-IV 医院住院数据集](https://mimic.mit.edu/docs/iv/)：
+
 MIMIC-IV 是一个数据库，包含美国马萨诸塞州波士顿的一个三级教学医疗中心收治的患者的真实住院数据。每位患者的综合信息有：实验室数据、用药情况、生命体征记录等。该数据库旨在支持广泛的医疗服务研究。
 
 -	[MIT MIMIC-III 重症病房数据集](https://mimic.mit.edu/docs/iii/)：
+
 MIMIC-III（重症病房数据集 III）是一个免费的大型数据库，包含 2001-2012 年间“贝斯以色列女执事医疗中心”重症监护病房的四万多名患者的脱敏健康数据。该数据库包括个人数据、床旁生命体征数值（每小时 1 个数据点）、实验室数据、手术、药物、护理人员记录、影像报告和死亡率（院内及院外）等信息。
 
 -	[英国临床实践研究数据链 (CPRD)](https://cprd.com/)：
+
 CPRD 是一项真实世界临床数据的研究服务，支持回顾性和前瞻性的公共卫生和临床研究。CPRD 从全英国的全科医师服务网络收集匿名患者数据，涵盖 6,000 万患者，其中包括 1,600 万当前登记在册的患者。
 
 -	[PhysioNet](https://physionet.org/about/database/)：
+
 PhysioNet Resource 的任务是开展和促进生物医学研究和教育，其中包括免费提供大规模生理和临床数据，以及相关开源软件。
 
 临床研究数据共享：
@@ -530,7 +534,7 @@ PhysioNet Resource 的任务是开展和促进生物医学研究和教育，其�
 政府和其他健康数据来源：
 
 -	美国政府开放的健康数据
--	美国卫生部医改办 (ONC) 开放的医疗IT 数据
+-	美国卫生部医改办 (ONC) 开放的医疗 IT 数据
 -	美国政府医保局 (CMS) 的开放数据
 -	美国卫生研究院 (NIH) 全民研究计划
 -	美国卫生研究院全美数据与健康中心 (CD2H)
@@ -748,25 +752,25 @@ NAM 2019 特别报告《医疗服务人工智能：希望、炒作、前途和�
 
 ## 更多 LHS 项目实例
 
--	[FDA 哨兵系统](https://www.sentinelinitiative.org/)： FDA 哨兵系统是智能医学系统的一个正在日常运营的实例，该系统正在扩展并有潜力创建一个全球智能医学系统，可以支持医疗产品安全性评估和其他研究 (Brown 2022) 。
+-	[FDA 哨兵系统](https://www.sentinelinitiative.org/)：FDA 哨兵系统是智能医学系统的一个正在日常运营的实例，该系统正在扩展并有潜力创建一个全球智能医学系统，可以支持医疗产品安全性评估和其他研究 (Brown 2022) 。
 
--	[凯撒医疗系统研究网络 (HCSRN)](https://www.hcsrn.org/en/): 医疗系统研究网络（前身为 HMORN）汇集了许多来自全美最佳且最具创新性的医疗系统的研究中心。其使命是通过连接各成员 LHS 的资源和能力进行研究来改善个人健康和人群健康。
+-	[凯撒医疗系统研究网络 (HCSRN)](https://www.hcsrn.org/en/)：医疗系统研究网络（前身为 HMORN）汇集了许多来自全美最佳且最具创新性的医疗系统的研究中心。其使命是通过连接各成员 LHS 的资源和能力进行研究来改善个人健康和人群健康。
 
--	[PCORnet PaTH 临床研究网络](https://www.pathnetwork.org/): 作为 PCORnet 成员，PaTH 临床研究网络研究人员与临床医生、患者和其他利益相关者合作，提出有意义的研究问题，这些问题可以整合到医疗服务中以获取真实世界的健康数据。 PaTH 网络包括许多医院，例如盖辛格 (Geisinger)、约翰·霍普金斯 (Johns Hopkins)、宾州州立 (PennState)、俄亥俄州立 (Ohio State)、天普 (Temple)、匹兹堡 (Pittsburg)、匹兹堡大学医学中心 (UPMC)、密歇根 (Michigan) 等。
+-	[PCORnet PaTH 临床研究网络](https://www.pathnetwork.org/)：作为 PCORnet 成员，PaTH 临床研究网络研究人员与临床医生、患者和其他利益相关者合作，提出有意义的研究问题，这些问题可以整合到医疗服务中以获取真实世界的健康数据。 PaTH 网络包括许多医院，例如盖辛格 (Geisinger)、约翰·霍普金斯 (Johns Hopkins)、宾州州立 (PennState)、俄亥俄州立 (Ohio State)、天普 (Temple)、匹兹堡 (Pittsburg)、匹兹堡大学医学中心 (UPMC)、密歇根 (Michigan) 等。
 
--	[PEDsnet 儿童健康研究网络](https://pedsnet.org/): PEDSnet 儿童健康研究网络开展改善儿童健康和生活的研究。它是一个由医院和医疗机构、研究人员和临床医生以及患者和家庭组成的大型全国性社区。社区共同努力以发现可以减少儿童痛苦并支持他们健康发展的最重要的研究问题。
+-	[PEDsnet 儿童健康研究网络](https://pedsnet.org/)：PEDSnet 儿童健康研究网络开展改善儿童健康和生活的研究。它是一个由医院和医疗机构、研究人员和临床医生以及患者和家庭组成的大型全国性社区。社区共同努力以发现可以减少儿童痛苦并支持他们健康发展的最重要的研究问题。
 
--	[ImproveCareNow 炎症性肠病合作社区](https://www.improvecarenow.org/): ImproveCareNow 是为改善青少年儿童克罗恩病和溃疡性结肠炎（也叫炎症性肠病）而运营的患者、家长、医生及研究人员共同参与的合作社区。
+-	[ImproveCareNow 炎症性肠病合作社区](https://www.improvecarenow.org/)：ImproveCareNow 是为改善青少年儿童克罗恩病和溃疡性结肠炎（也叫炎症性肠病）而运营的患者、家长、医生及研究人员共同参与的合作社区。
 
--	[美国临床肿瘤学会 CancerLinQ](https://cancerlinq.org/)： CancerLinQ 是美国临床肿瘤学会 (ASCO) 的健康技术子公司（非营利），其目标是为所有癌症患者提高医疗质量、改善健康结果，并推进循证医学研究。 CancerLinQ 建立了一个跨平台、跨学科和跨技能组合的学习社区，以促成改善可惠及各地患者的医疗服务。
+-	[美国临床肿瘤学会 CancerLinQ](https://cancerlinq.org/)：CancerLinQ 是美国临床肿瘤学会 (ASCO) 的健康技术子公司（非营利），其目标是为所有癌症患者提高医疗质量、改善健康结果，并推进循证医学研究。 CancerLinQ 建立了一个跨平台、跨学科和跨技能组合的学习社区，以促成改善可惠及各地患者的医疗服务。
 
--	[斯坦福大学协作健康结果信息登记 (CHOIR) 网络](https://choir.stanford.edu/): 支持疼痛管理的斯坦福 CHOIR 网络是最早的开源、开放标准和高度灵活的平台，用于智能医疗系统优化医疗服务，并推进真实世界研究的发现和创新。
+-	[斯坦福大学协作健康结果信息登记 (CHOIR) 网络](https://choir.stanford.edu/)：支持疼痛管理的斯坦福 CHOIR 网络是最早的开源、开放标准和高度灵活的平台，用于智能医疗系统优化医疗服务，并推进真实世界研究的发现和创新。
 
--	[斯坦福大学医院新冠指南项目](https://pubmed.ncbi.nlm.nih.gov/35235994/)： 在斯坦福大学医院新冠医疗服务LHS流程中，临床部门的临床问题得到快速回答，并及时影响服务新冠患者的医院指南的制定 (Dash 2022)。
+-	[斯坦福大学医院新冠指南项目](https://pubmed.ncbi.nlm.nih.gov/35235994/)：在斯坦福大学医院新冠医疗服务LHS流程中，临床部门的临床问题得到快速回答，并及时影响服务新冠患者的医院指南的制定 (Dash 2022)。
 
--	[退伍军人医院短暂性脑缺血发作 LHS 项目](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770248): 退伍军人医院 PREVENT 临床试验项目旨在尝试智能医疗系统的服务模式，评估多组分 QI 干预，以提高短暂性脑缺血发作 (TIA) 的医疗质量 (Bravata 2020)。
+-	[退伍军人医院短暂性脑缺血发作 LHS 项目](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770248)：退伍军人医院 PREVENT 临床试验项目旨在尝试智能医疗系统的服务模式，评估多组分 QI 干预，以提高短暂性脑缺血发作 (TIA) 的医疗质量 (Bravata 2020)。
 
--	[纽约大学 Langone 医院 LHS 项目](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign): 在纽约大学医院的医疗创新和实施科学中心 (NYU CHIDS)，随机 QI 项目是与一线医护人员合作，确保 QI 干预无缝实施，而不会增加额外负担。项目证实了 LHS 在系统层面的干预可有效提高医疗质量。[见研讨会视频](https://rethinkingclinicaltrials.org/news/march-6-2020-creating-a-learning-health-system-through-randomization-leora-horwitz-md-mhs/) (Horwitz 2019)。
+-	[纽约大学 Langone 医院 LHS 项目](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign)：在纽约大学医院的医疗创新和实施科学中心 (NYU CHIDS)，随机 QI 项目是与一线医护人员合作，确保 QI 干预无缝实施，而不会增加额外负担。项目证实了 LHS 在系统层面的干预可有效提高医疗质量。[见研讨会视频](https://rethinkingclinicaltrials.org/news/march-6-2020-creating-a-learning-health-system-through-randomization-leora-horwitz-md-mhs/) (Horwitz 2019)。
 
 ## 研究和开发
 -	[斯坦福HAI：以数据为中心的 AI 研讨会](https://hai.stanford.edu/events/data-centric-ai-virtual-workshop)
