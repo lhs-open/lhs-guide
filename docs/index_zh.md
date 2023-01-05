@@ -1,6 +1,6 @@
 # LHS智能医学系统实用指南
 
-陈安均博士，[LHS技术论坛项目](https://www.learninghealth.org/2020-lhs-technology-forum) 联合主席，国际LHS社区（非营利），加州硅谷
+陈安均博士，[LHS技术论坛项目](https://www.learninghealth.org/2020-lhs-technology-forum) 联合主席，国际 LHS 社区（非营利），加州硅谷
 
 [1/2/2023 更新。[英文原文](index.md)]
 
