@@ -47,7 +47,7 @@
 
 ### 下一步：
 
->   在阅读本快速实用指南后，如果您想尝试病历机器学习或 ML-LHS 研究，可先在 GitHub 上的 [开放合成数据项目](https://github.com/lhs-open/synthetic-data) 查看已有数据。如果您需要新的合成数据，可email我 (ajchen at web2express.org) 讨论如何产生新数据。合成数据有望加速您的项目进程，开源 Synthea 技术能够模拟各种疾病或健康状况，可能是您所需的合成数据的起点 
+>   在阅读本快速实用指南后，如果您想尝试病历机器学习或 ML-LHS 研究，可先在 GitHub 上的 [开放合成数据项目](https://github.com/lhs-open/synthetic-data) 查看已有数据。如果您需要新的合成数据，可email我 (ajchen(at) web2express.org) 讨论如何产生新数据。合成数据有望加速您的项目进程，开源 Synthea 技术能够模拟各种疾病或健康状况，可能是您所需的合成数据的起点 
 
 ---
 
@@ -595,30 +595,30 @@ Synthea 的模块设计很巧妙，您可以添加新模块来涵盖您感兴趣
 
 #### Synthea 患者病历格式
 
-Synthea 患者病历格式有标准的 FHIR 格式或简单的 CSV 格式。为了更方便地查看不同专项记录中的数据元素，请参阅 [病历CSV文件列表](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary) 和每个文件中的数据字段。
+Synthea 患者病历格式有标准的 FHIR 格式或简单的 CSV 格式。为了更方便地查看不同专项记录中的数据元素，请参阅 [病历CSV文档列表](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary) 和每个文档中的数据字段。
 
 **表格：Synthea 患者病历文件**
 
-病历文件	|解释
+病历文档	|解释
 --------|-----------
 allergies.csv	|患者过敏数据
-careplans.csv	|患者护理计划数据，包括目标
-claims.csv	|患者账单数据
-claims_transactions.csv	|每个账单的每个项目的交易
-conditions.csv	|患者状况或诊断
-devices.csv	|附于患者的永久性和半永久性设备
+careplans.csv	|患者健康计划数据，包括目标
+claims.csv	|患者医保账单数据
+claims_transactions.csv	|患者医保账单项目明细数据
+conditions.csv	|患者诊断或健康状况
+devices.csv	|患者携带的永久性和半永久性医疗器械
 encounters.csv	|患者就诊数据
-imaging_studies.csv	|患者成像元数据
+imaging_studies.csv	|患者影像元数据
 immunizations.csv	|患者免疫接种数据
 medications.csv	|患者用药数据
-observations.csv	|患者观察结果，包括生命体征和实验室报告
-organizations.csv	|医疗机构，包括医院
-patients.csv	|患者人口统计数据
-payer_transitions.csv	|支付者转换数据（即健康保险的变化）
+observations.csv	|患者观察结果数据，包括生命体征和实验室报告
+organizations.csv	|医院等医疗机构
+patients.csv	|患者个人数据
+payer_transitions.csv	|付费明细数据（即健康保险付费）
 payers.csv	|支付机构数据
-procedures.csv	|患者医疗程序数据，包括手术
-providers.csv	|提供患者护理的临床医生
-supplies.csv	|用于提供护理的用品
+procedures.csv	|手术等医疗流程数据
+providers.csv	|提供医疗服务的临床医生
+supplies.csv	|医用品数据
 
 <br>
 

@@ -98,7 +98,7 @@ At the system level, it is clear that the clinical research enterprise is detach
 
 ## What is LHS?
 
-SOURCE: NAM 2007 LHS report “The Learning Healthcare System.”
+[Source: NAM 2007 LHS report “The Learning Healthcare System”]
 
 The report proposes that by reengineering clinical research and healthcare delivery, the best evidence generation and application process will become natural and seamless components of the process of health care itself, as part of a learning healthcare system, which can be both more effective and more efficient than we have today. 
 
@@ -120,7 +120,7 @@ The Office of National Coordinator (ONC) envisioned a nationwide learning health
 
 ## Redefining LHS
 
-[SOURCE: NAM 2013 report “Best Care at Lower Cost”]
+[Source: NAM 2013 report “Best Care at Lower Cost”]
 
 In 2013, IOM produced another report to re-iterate its vision of LHS: “Best Care at Lower Cost: The Path to Continuously Learning Health Care in America.” It explores the imperatives for change, the emerging tools that make transformation possible, the vision for a continuously learning health care system, and the path for achieving this vision. 
 
@@ -154,13 +154,13 @@ Improving quality and controlling costs requires moving from this unsustainable 
 **Schematic of a learning health system:** 
 ![LHSpic](img/nam-lhs.png) 
 
-Source: NAM 2013 report “Best Care at Lower Cost.”
+(Source: NAM 2013 report “Best Care at Lower Cost”)
 
 <br>
 
 ## Characteristics of a Continuously Learning Health Care System
 
-[SOURCE: NAM 2013 report "Best Care at Lower Cost"] 
+[Source: NAM 2013 report "Best Care at Lower Cost"] 
 
 Science and Informatics:
 
@@ -212,7 +212,7 @@ In essence, LHS is about revolutionizing knowledge generation and application in
 # 2. Medical Evidence and Knowledge Generation
 
 ## Study methods
-[SOURCE: NAM 2013 report "Best Care at Lower Cost"]
+[Source: NAM 2013 report "Best Care at Lower Cost"]
 
 Randomized clinical trials (RCT) are the “gold standard” of the current clinical research enterprise for generating medical evidence and knowledge. Despite the accelerating pace of scientific discovery, the current clinical research enterprise does not sufficiently address pressing clinical questions. The result is decisions by both patients and clinicians that are inadequately informed by evidence.
 
@@ -306,7 +306,7 @@ In my view, this environment of unprecedented digital health data plus machine l
 # 3. Medical Knowledge and Model Dissemination
 
 ## Dissemination through knowledge-based CDS 
-[SOURCE: NAM 2013 report "Best Care at Lower Cost"]
+[Source: NAM 2013 report "Best Care at Lower Cost"]
 
 Current systems that generate and implement new clinical knowledge are generally disconnected and poorly coordinated. While clinical data contribute to the development of many effective, evidence-based practices, therapeutics, and interventions every year, only some of these have become widely used. Many others are used only in limited ways, failing to realize their transformative potential to improve care.
 
@@ -675,7 +675,7 @@ Synthea data are considered realistic but not real. They have proven useful in d
 
 ## Healthcare AI
 
-[SOURCE: NAM 2019 special AI report]
+[Source: NAM 2019 special AI report]
 
 NAM 2019 special report, “Artificial Intelligence in Health Care: The Hope, the Hype, the Promise, the Peril”, outlines the current and near-term AI solutions; highlights the challenges, limitations, and best practices for AI development, adoption, and maintenance; offers an overview of the legal and regulatory landscape for AI tools designed for health care application; prioritizes the need for equity, inclusion, and a human rights lens for this work; and outlines key considerations for moving forward. (NAM 2019, Matheny 2020). See [webinar video](https://nam.edu/event/webinar-artificial-intelligence-and-health-care/).
 

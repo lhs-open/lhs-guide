@@ -1,8 +1,14 @@
 site_name: LHS
 site_url: ""
+site_description: "LHS Practical Guide for clinical teams and developers to explore and build learning health systems quickly."
 use_directory_urls: false
 #theme: readthedocs
+theme:
+  name: mkdocs
+  nav_style: dark
+  navigation_depth: 1
 nav:
-    - LHS Practical Guide: index.md
-    - LHS Practical Guide (Chinese): index_zh.md
-#    - Building ML-enable LHS: ml-lhs/index.html
+  - LHS Practical Guide: index.md
+  - LHS Practical Guide (Chinese): index_zh.md
+#  - Building ML-enable LHS: ml-lhs/index.html
+#plugins: []
