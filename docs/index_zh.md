@@ -47,7 +47,7 @@
 
 ### 下一步：
 
->   在阅读本快速实用指南后，如果您想尝试病历机器学习或 ML-LHS 研究，可先在 GitHub 上的 [开放合成数据项目](https://github.com/lhs-open/synthetic-data) 查看已有数据。如果您需要新的合成数据，可联系我 (ajchen at web2express.org) 讨论如何产生新数据。合成数据有望加速您的项目进程，开源 Synthea 技术能够模拟任何疾病或健康状况，因此可能是产生您所需的合成数据的起点。 
+>   在阅读本快速实用指南后，如果您想尝试病历机器学习或 ML-LHS 研究，可先在 GitHub 上的 [开放合成数据项目](https://github.com/lhs-open/synthetic-data) 查看已有数据。如果您需要新的合成数据，可email我 (ajchen at web2express.org) 讨论如何产生新数据。合成数据有望加速您的项目进程，开源 Synthea 技术能够模拟各种疾病或健康状况，可能是您所需的合成数据的起点 
 
 ---
 
