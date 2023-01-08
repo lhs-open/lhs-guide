@@ -890,7 +890,7 @@ The following studies are some representative examples of EMR-wide ML:
 
 # Acknowledgements
 
-Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to US NAM for its published LHS reports, no LHS vision without their research. Thanks to all references cited.
+Thanks to Joshua C. Rubin, JD, MBA, MPH, MPP for reviewing and editing the guide. Special thanks to US National Academy of Medicine for its published LHS reports, no LHS vision without their pioneering research. Thanks to all references cited.
 
 
 ---
